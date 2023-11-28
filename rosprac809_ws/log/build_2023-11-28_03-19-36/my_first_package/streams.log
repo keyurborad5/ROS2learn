@@ -1,0 +1,11 @@
+[0.690s] Invoking command in '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package -- -j8 -l8
+[1.274s] [ 50%] [32mBuilding CXX object CMakeFiles/hello.dir/src/main.cpp.o[0m
+[1.557s] In file included from [01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/main.cpp:3[m[K:
+[1.557s] [01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/include/my_first_package/my_first_package.h:2:10:[m[K [01;31m[Kfatal error: [m[Klogging.hpp: No such file or directory
+[1.557s]     2 | #include [01;31m[K<logging.hpp>[m[K
+[1.557s]       |          [01;31m[K^~~~~~~~~~~~~[m[K
+[1.557s] compilation terminated.
+[1.561s] make[2]: *** [CMakeFiles/hello.dir/build.make:63: CMakeFiles/hello.dir/src/main.cpp.o] Error 1
+[1.562s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/hello.dir/all] Error 2
+[1.562s] make: *** [Makefile:141: all] Error 2
+[1.566s] Invoked command in '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package -- -j8 -l8

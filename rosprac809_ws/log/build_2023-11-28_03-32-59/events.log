@@ -1,0 +1,141 @@
+[0.000000] (-) TimerEvent: {}
+[0.001182] (my_first_package) JobQueued: {'identifier': 'my_first_package', 'dependencies': OrderedDict()}
+[0.001274] (my_first_package) JobStarted: {'identifier': 'my_first_package'}
+[0.100793] (-) TimerEvent: {}
+[0.203337] (-) TimerEvent: {}
+[0.270501] (my_first_package) JobProgress: {'identifier': 'my_first_package', 'progress': 'cmake'}
+[0.272159] (my_first_package) JobProgress: {'identifier': 'my_first_package', 'progress': 'build'}
+[0.273481] (my_first_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package', '--', '-j8', '-l8'], 'cwd': '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'keyur'), ('SSH_AGENT_PID', '1485'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/keyur'), ('OLDPWD', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1164'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4300'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install:/home/keyur/ros809_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'keyur'), ('JOURNAL_STREAM', '8:40483'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'keyur'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/keyur:@/tmp/.ICE-unix/1525,unix/keyur:/tmp/.ICE-unix/1525'), ('INVOCATION_ID', '8067d0e17199480394daca49065f5e9b'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package:/home/keyur/ros809_ws/install/first_package:/home/keyur/ros809_ws/install/automated_vehicle:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:5b099ad1-91c5-45e6-9b04-f6bd58eb8c66'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package:/home/keyur/ros809_ws/install/first_package:/home/keyur/ros809_ws/install/automated_vehicle:/opt/ros/galactic')]), 'shell': False}
+[0.303462] (-) TimerEvent: {}
+[0.404075] (-) TimerEvent: {}
+[0.504875] (-) TimerEvent: {}
+[0.605679] (-) TimerEvent: {}
+[0.643047] (my_first_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.706080] (-) TimerEvent: {}
+[0.761588] (my_first_package) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.806161] (-) TimerEvent: {}
+[0.906497] (-) TimerEvent: {}
+[1.006964] (-) TimerEvent: {}
+[1.107697] (-) TimerEvent: {}
+[1.208458] (-) TimerEvent: {}
+[1.309158] (-) TimerEvent: {}
+[1.328974] (my_first_package) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[1.409356] (-) TimerEvent: {}
+[1.509996] (-) TimerEvent: {}
+[1.610683] (-) TimerEvent: {}
+[1.711344] (-) TimerEvent: {}
+[1.811951] (-) TimerEvent: {}
+[1.912390] (-) TimerEvent: {}
+[1.930362] (my_first_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.012685] (-) TimerEvent: {}
+[2.023316] (my_first_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[2.113017] (-) TimerEvent: {}
+[2.213870] (-) TimerEvent: {}
+[2.314491] (-) TimerEvent: {}
+[2.414856] (-) TimerEvent: {}
+[2.515173] (-) TimerEvent: {}
+[2.615567] (-) TimerEvent: {}
+[2.711912] (my_first_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.715758] (-) TimerEvent: {}
+[2.816344] (-) TimerEvent: {}
+[2.917007] (-) TimerEvent: {}
+[2.995630] (my_first_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[3.017139] (-) TimerEvent: {}
+[3.017775] (my_first_package) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[3.117372] (-) TimerEvent: {}
+[3.175264] (my_first_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[3.217492] (-) TimerEvent: {}
+[3.318123] (-) TimerEvent: {}
+[3.419202] (-) TimerEvent: {}
+[3.519683] (-) TimerEvent: {}
+[3.620133] (-) TimerEvent: {}
+[3.671030] (my_first_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[3.720251] (-) TimerEvent: {}
+[3.821041] (-) TimerEvent: {}
+[3.922131] (-) TimerEvent: {}
+[4.022796] (-) TimerEvent: {}
+[4.067471] (my_first_package) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.085070] (my_first_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.086302] (my_first_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/include/my_first_package\n'}
+[4.086846] (my_first_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.096564] (my_first_package) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.097207] (my_first_package) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.120201] (my_first_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.123018] (-) TimerEvent: {}
+[4.131327] (my_first_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.132050] (my_first_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.140897] (my_first_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.183897] (my_first_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.223248] (-) TimerEvent: {}
+[4.323990] (-) TimerEvent: {}
+[4.424916] (-) TimerEvent: {}
+[4.447670] (my_first_package) StdoutLine: {'line': b'-- Generating done\n'}
+[4.456699] (my_first_package) StdoutLine: {'line': b'-- Build files have been written to: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package\n'}
+[4.525023] (-) TimerEvent: {}
+[4.526521] (my_first_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hello\x1b[0m\n'}
+[4.625151] (-) TimerEvent: {}
+[4.692536] (my_first_package) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/hello.dir/src/main.cpp.o\x1b[0m\n'}
+[4.725283] (-) TimerEvent: {}
+[4.735315] (my_first_package) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/hello.dir/src/my_first_package.cpp.o\x1b[0m\n'}
+[4.825408] (-) TimerEvent: {}
+[4.925689] (-) TimerEvent: {}
+[5.026021] (-) TimerEvent: {}
+[5.126375] (-) TimerEvent: {}
+[5.226742] (-) TimerEvent: {}
+[5.327107] (-) TimerEvent: {}
+[5.427530] (-) TimerEvent: {}
+[5.527860] (-) TimerEvent: {}
+[5.628152] (-) TimerEvent: {}
+[5.728504] (-) TimerEvent: {}
+[5.828864] (-) TimerEvent: {}
+[5.929215] (-) TimerEvent: {}
+[6.029526] (-) TimerEvent: {}
+[6.129839] (-) TimerEvent: {}
+[6.230152] (-) TimerEvent: {}
+[6.330472] (-) TimerEvent: {}
+[6.430855] (-) TimerEvent: {}
+[6.531177] (-) TimerEvent: {}
+[6.631568] (-) TimerEvent: {}
+[6.731928] (-) TimerEvent: {}
+[6.832293] (-) TimerEvent: {}
+[6.932673] (-) TimerEvent: {}
+[7.033063] (-) TimerEvent: {}
+[7.133620] (-) TimerEvent: {}
+[7.234066] (-) TimerEvent: {}
+[7.334568] (-) TimerEvent: {}
+[7.435262] (-) TimerEvent: {}
+[7.535738] (-) TimerEvent: {}
+[7.636166] (-) TimerEvent: {}
+[7.736695] (-) TimerEvent: {}
+[7.804825] (my_first_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[7.805207] (my_first_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[7.805331] (my_first_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:63\x1b[m\x1b[K,\n'}
+[7.805432] (my_first_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:154\x1b[m\x1b[K,\n'}
+[7.805525] (my_first_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/main.cpp:1\x1b[m\x1b[K:\n'}
+[7.805616] (my_first_package) StderrLine: {'line': b'/usr/include/c++/9/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = demo::MyFirstPackage; _Args = {const char (&)[6], const char (&)[10]}; _Tp = demo::MyFirstPackage]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.805711] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/alloc_traits.h:483:4:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = demo::MyFirstPackage; _Args = {const char (&)[6], const char (&)[10]}; _Tp = demo::MyFirstPackage; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<demo::MyFirstPackage>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.805825] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:548:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[6], const char (&)[10]}; _Tp = demo::MyFirstPackage; _Alloc = std::allocator<demo::MyFirstPackage>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.805923] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:679:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = demo::MyFirstPackage; _Alloc = std::allocator<demo::MyFirstPackage>; _Args = {const char (&)[6], const char (&)[10]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.806026] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<demo::MyFirstPackage>; _Args = {const char (&)[6], const char (&)[10]}; _Tp = demo::MyFirstPackage; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.806127] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:359:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<demo::MyFirstPackage>; _Args = {const char (&)[6], const char (&)[10]}; _Tp = demo::MyFirstPackage]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.806220] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:701:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = demo::MyFirstPackage; _Alloc = std::allocator<demo::MyFirstPackage>; _Args = {const char (&)[6], const char (&)[10]}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.806312] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:717:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = demo::MyFirstPackage; _Args = {const char (&)[6], const char (&)[10]}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.806403] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/main.cpp:6:75:\x1b[m\x1b[K   required from here\n'}
+[7.806493] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ext/new_allocator.h:146:4:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kdemo::MyFirstPackage::MyFirstPackage(const char [6], const char [10])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.806584] (my_first_package) StderrLine: {'line': b'  146 |  { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[7.806674] (my_first_package) StderrLine: {'line': b'      |    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.806765] (my_first_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/main.cpp:3\x1b[m\x1b[K:\n'}
+[7.806856] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/include/my_first_package/my_first_package.h:15:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kdemo::MyFirstPackage::MyFirstPackage(std::string)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.806953] (my_first_package) StderrLine: {'line': b'   15 |         \x1b[01;36m\x1b[KMyFirstPackage\x1b[m\x1b[K(std::string node_name): Node(node_name){\n'}
+[7.807048] (my_first_package) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.807136] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/include/my_first_package/my_first_package.h:15:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[7.837017] (-) TimerEvent: {}
+[7.899837] (my_first_package) StderrLine: {'line': b'make[2]: *** [CMakeFiles/hello.dir/build.make:63: CMakeFiles/hello.dir/src/main.cpp.o] Error 1\n'}
+[7.900333] (my_first_package) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/hello.dir/all] Error 2\n'}
+[7.900559] (my_first_package) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[7.904662] (my_first_package) CommandEnded: {'returncode': 2}
+[7.937106] (-) TimerEvent: {}
+[8.038786] (-) TimerEvent: {}
+[8.140534] (-) TimerEvent: {}
+[8.167299] (my_first_package) JobEnded: {'identifier': 'my_first_package', 'rc': 2}
+[8.177941] (-) EventReactorShutdown: {}

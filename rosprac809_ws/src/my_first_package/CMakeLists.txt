@@ -20,12 +20,14 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-add_executable(hello src/main.cpp)
+include_directories(include/my_first_package)
+add_executable(hello src/my_first_package.cpp)
 
 ament_target_dependencies(hello rclcpp)
 
 install(TARGETS
 hello
 DESTINATION lib/${PROJECT_NAME})
+#install(DIRECTORY include DESTINATION share/${PROJECT_NAME})
 
 ament_package()

@@ -1,0 +1,6 @@
+[0.330s] Invoking command in '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package -- -j8 -l8
+[0.777s] [35m[1mScanning dependencies of target hello[0m
+[0.851s] make[2]: *** No rule to make target '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/main.cpp', needed by 'CMakeFiles/hello.dir/src/main.cpp.o'.  Stop.
+[0.852s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/hello.dir/all] Error 2
+[0.852s] make: *** [Makefile:141: all] Error 2
+[0.855s] Invoked command in '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package -- -j8 -l8

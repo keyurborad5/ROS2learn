@@ -1,0 +1,8 @@
+In file included from [01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/main.cpp:3[m[K:
+[01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/include/my_first_package/my_first_package.h:2:10:[m[K [01;31m[Kfatal error: [m[Klogging.hpp: No such file or directory
+    2 | #include [01;31m[K<logging.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/hello.dir/build.make:63: CMakeFiles/hello.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/hello.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
