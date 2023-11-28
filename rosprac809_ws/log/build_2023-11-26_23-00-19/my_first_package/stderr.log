@@ -1,0 +1,5 @@
+CMake Error at CMakeLists.txt:23 (add_executables):
+  Unknown CMake command "add_executables".
+
+
+make: *** [Makefile:222: cmake_check_build_system] Error 1
