@@ -37,6 +37,7 @@ ament_target_dependencies(light_switcher_sub rclcpp)
 install(TARGETS hello DESTINATION lib/${PROJECT_NAME})
 install(TARGETS light_switcher_pub DESTINATION lib/${PROJECT_NAME})
 install(TARGETS light_switcher_sub DESTINATION lib/${PROJECT_NAME})
-#install(DIRECTORY include DESTINATION share/${PROJECT_NAME})
+
+install(DIRECTORY include launch DESTINATION share/${PROJECT_NAME})
 
 ament_package()
