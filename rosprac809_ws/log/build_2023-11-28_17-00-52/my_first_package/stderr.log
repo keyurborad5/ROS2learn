@@ -1,0 +1,37 @@
+In file included from [01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_sub.cpp:1[m[K:
+[01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/include/my_first_package/light_switcher_sub.h:[m[K In constructor ‘[01m[Kdemo::LightSwitcherSub::LightSwitcherSub(std::string)[m[K’:
+[01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/include/my_first_package/light_switcher_sub.h:13:89:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kdemo::LightSwitcherSub::create_subscription<std_msgs::msg::Bool>(const char [13], int)[m[K’
+   13 | s->create_subscription<std_msgs::msg::Bool>("light_status",10[01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/include/my_first_package/light_switcher_sub.h:2[m[K,
+                 from [01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_sub.cpp:1[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:229:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  229 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:229:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_sub.cpp:1[m[K:
+[01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/include/my_first_package/light_switcher_sub.h:13:89:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 2 provided
+   13 | s->create_subscription<std_msgs::msg::Bool>("light_status",10[01;36m[K)[m[K;
+      |                                                              [01;36m[K^[m[K
+
+[01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_sub.cpp:[m[K At global scope:
+[01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_sub.cpp:4:6:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid demo::LightSwitcherSub::light_status_sub_cb(std_msgs::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’
+    4 | void [01;31m[Kdemo[m[K::LightSwitcherSub::light_status_sub_cb(const std_msgs::msg::Bool::SharedPtr msg){
+      |      [01;31m[K^~~~[m[K
+[01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_sub.cpp:4:6:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kvoid demo::LightSwitcherSub::light_status_sub_cb(std_msgs::msg::Bool_<std::allocator<void> >::SharedPtr)[m[K’
+In file included from [01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_sub.cpp:1[m[K:
+[01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/include/my_first_package/light_switcher_sub.h:8:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass demo::LightSwitcherSub[m[K’ defined here
+    8 |     class [01;36m[KLightSwitcherSub[m[K : public rclcpp::Node{
+      |           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_sub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_sub.cpp:12:5:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Krclcpp[m[K’ defined but not used [[01;35m[K-Wunused-label[m[K]
+   12 |     [01;35m[Krclcpp[m[K:spin(node);
+      |     [01;35m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/light_switcher_sub.dir/build.make:63: CMakeFiles/light_switcher_sub.dir/src/light_switcher_sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/light_switcher_sub.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

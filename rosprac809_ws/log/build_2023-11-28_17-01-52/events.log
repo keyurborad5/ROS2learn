@@ -1,0 +1,160 @@
+[0.000000] (-) TimerEvent: {}
+[0.000134] (my_first_package) JobQueued: {'identifier': 'my_first_package', 'dependencies': OrderedDict()}
+[0.000191] (my_first_package) JobStarted: {'identifier': 'my_first_package'}
+[0.099739] (-) TimerEvent: {}
+[0.201361] (-) TimerEvent: {}
+[0.278086] (my_first_package) JobProgress: {'identifier': 'my_first_package', 'progress': 'cmake'}
+[0.279032] (my_first_package) JobProgress: {'identifier': 'my_first_package', 'progress': 'build'}
+[0.280048] (my_first_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package', '--', '-j8', '-l8'], 'cwd': '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'keyur'), ('SSH_AGENT_PID', '1448'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/keyur'), ('OLDPWD', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1123'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3470'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install:/home/keyur/ros809_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'keyur'), ('JOURNAL_STREAM', '8:42295'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'keyur'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/keyur:@/tmp/.ICE-unix/1511,unix/keyur:/tmp/.ICE-unix/1511'), ('INVOCATION_ID', 'a8d0f4157d9f4711b6d96e816a7fb47a'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package:/home/keyur/ros809_ws/install/first_package:/home/keyur/ros809_ws/install/automated_vehicle:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:057bff8f-10c0-4989-bb52-59165c5a1def'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package:/home/keyur/ros809_ws/install/first_package:/home/keyur/ros809_ws/install/automated_vehicle:/opt/ros/galactic')]), 'shell': False}
+[0.301566] (-) TimerEvent: {}
+[0.356761] (my_first_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target light_switcher_sub\x1b[0m\n'}
+[0.381882] (my_first_package) StdoutLine: {'line': b'[ 66%] Built target light_switcher_pub\n'}
+[0.382492] (my_first_package) StdoutLine: {'line': b'[ 66%] Built target hello\n'}
+[0.401676] (-) TimerEvent: {}
+[0.415355] (my_first_package) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/light_switcher_sub.dir/src/light_switcher_sub.cpp.o\x1b[0m\n'}
+[0.501821] (-) TimerEvent: {}
+[0.602209] (-) TimerEvent: {}
+[0.702522] (-) TimerEvent: {}
+[0.802835] (-) TimerEvent: {}
+[0.903140] (-) TimerEvent: {}
+[1.003453] (-) TimerEvent: {}
+[1.103757] (-) TimerEvent: {}
+[1.204173] (-) TimerEvent: {}
+[1.304643] (-) TimerEvent: {}
+[1.405307] (-) TimerEvent: {}
+[1.505729] (-) TimerEvent: {}
+[1.606083] (-) TimerEvent: {}
+[1.706412] (-) TimerEvent: {}
+[1.806758] (-) TimerEvent: {}
+[1.907125] (-) TimerEvent: {}
+[2.007475] (-) TimerEvent: {}
+[2.107850] (-) TimerEvent: {}
+[2.208255] (-) TimerEvent: {}
+[2.308713] (-) TimerEvent: {}
+[2.409654] (-) TimerEvent: {}
+[2.510387] (-) TimerEvent: {}
+[2.610797] (-) TimerEvent: {}
+[2.711242] (-) TimerEvent: {}
+[2.811678] (-) TimerEvent: {}
+[2.912051] (-) TimerEvent: {}
+[3.012579] (-) TimerEvent: {}
+[3.112977] (-) TimerEvent: {}
+[3.213377] (-) TimerEvent: {}
+[3.313771] (-) TimerEvent: {}
+[3.414150] (-) TimerEvent: {}
+[3.514546] (-) TimerEvent: {}
+[3.597650] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_sub.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.597940] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_sub.cpp:12:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Klabel \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-label\x1b[m\x1b[K]\n'}
+[3.598059] (my_first_package) StderrLine: {'line': b'   12 |     \x1b[01;35m\x1b[Krclcpp\x1b[m\x1b[K:spin(node);\n'}
+[3.598160] (my_first_package) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.614685] (-) TimerEvent: {}
+[3.715004] (-) TimerEvent: {}
+[3.815325] (-) TimerEvent: {}
+[3.915648] (-) TimerEvent: {}
+[4.015997] (-) TimerEvent: {}
+[4.116340] (-) TimerEvent: {}
+[4.216661] (-) TimerEvent: {}
+[4.317025] (-) TimerEvent: {}
+[4.417360] (-) TimerEvent: {}
+[4.517685] (-) TimerEvent: {}
+[4.618010] (-) TimerEvent: {}
+[4.718354] (-) TimerEvent: {}
+[4.818714] (-) TimerEvent: {}
+[4.919050] (-) TimerEvent: {}
+[5.019349] (-) TimerEvent: {}
+[5.119698] (-) TimerEvent: {}
+[5.220013] (-) TimerEvent: {}
+[5.320333] (-) TimerEvent: {}
+[5.420660] (-) TimerEvent: {}
+[5.520995] (-) TimerEvent: {}
+[5.621309] (-) TimerEvent: {}
+[5.721642] (-) TimerEvent: {}
+[5.821972] (-) TimerEvent: {}
+[5.922318] (-) TimerEvent: {}
+[6.022655] (-) TimerEvent: {}
+[6.123065] (-) TimerEvent: {}
+[6.223451] (-) TimerEvent: {}
+[6.323810] (-) TimerEvent: {}
+[6.424238] (-) TimerEvent: {}
+[6.524657] (-) TimerEvent: {}
+[6.625361] (-) TimerEvent: {}
+[6.726055] (-) TimerEvent: {}
+[6.826448] (-) TimerEvent: {}
+[6.926833] (-) TimerEvent: {}
+[7.027276] (-) TimerEvent: {}
+[7.127973] (-) TimerEvent: {}
+[7.228308] (-) TimerEvent: {}
+[7.328574] (-) TimerEvent: {}
+[7.428878] (-) TimerEvent: {}
+[7.529183] (-) TimerEvent: {}
+[7.629486] (-) TimerEvent: {}
+[7.729788] (-) TimerEvent: {}
+[7.830090] (-) TimerEvent: {}
+[7.930390] (-) TimerEvent: {}
+[8.030695] (-) TimerEvent: {}
+[8.130999] (-) TimerEvent: {}
+[8.231289] (-) TimerEvent: {}
+[8.331581] (-) TimerEvent: {}
+[8.431886] (-) TimerEvent: {}
+[8.532189] (-) TimerEvent: {}
+[8.632494] (-) TimerEvent: {}
+[8.732791] (-) TimerEvent: {}
+[8.833083] (-) TimerEvent: {}
+[8.933383] (-) TimerEvent: {}
+[9.033735] (-) TimerEvent: {}
+[9.134037] (-) TimerEvent: {}
+[9.234347] (-) TimerEvent: {}
+[9.334646] (-) TimerEvent: {}
+[9.435068] (-) TimerEvent: {}
+[9.535381] (-) TimerEvent: {}
+[9.635659] (-) TimerEvent: {}
+[9.735951] (-) TimerEvent: {}
+[9.836285] (-) TimerEvent: {}
+[9.936629] (-) TimerEvent: {}
+[10.037109] (-) TimerEvent: {}
+[10.119651] (my_first_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable light_switcher_sub\x1b[0m\n'}
+[10.137326] (-) TimerEvent: {}
+[10.237829] (-) TimerEvent: {}
+[10.338204] (-) TimerEvent: {}
+[10.438717] (-) TimerEvent: {}
+[10.539088] (-) TimerEvent: {}
+[10.639504] (-) TimerEvent: {}
+[10.739868] (-) TimerEvent: {}
+[10.771632] (my_first_package) StdoutLine: {'line': b'[100%] Built target light_switcher_sub\n'}
+[10.840079] (-) TimerEvent: {}
+[10.857141] (my_first_package) CommandEnded: {'returncode': 0}
+[10.909319] (my_first_package) JobProgress: {'identifier': 'my_first_package', 'progress': 'install'}
+[10.930986] (my_first_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package'], 'cwd': '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'keyur'), ('SSH_AGENT_PID', '1448'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/keyur'), ('OLDPWD', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1123'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3470'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install:/home/keyur/ros809_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'keyur'), ('JOURNAL_STREAM', '8:42295'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'keyur'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/keyur:@/tmp/.ICE-unix/1511,unix/keyur:/tmp/.ICE-unix/1511'), ('INVOCATION_ID', 'a8d0f4157d9f4711b6d96e816a7fb47a'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package:/home/keyur/ros809_ws/install/first_package:/home/keyur/ros809_ws/install/automated_vehicle:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:057bff8f-10c0-4989-bb52-59165c5a1def'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package:/home/keyur/ros809_ws/install/first_package:/home/keyur/ros809_ws/install/automated_vehicle:/opt/ros/galactic')]), 'shell': False}
+[10.940200] (-) TimerEvent: {}
+[10.946623] (my_first_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.040443] (-) TimerEvent: {}
+[11.049973] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/lib/my_first_package/hello\n'}
+[11.053032] (my_first_package) StdoutLine: {'line': b'-- Set runtime path of "/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/lib/my_first_package/hello" to ""\n'}
+[11.077766] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/lib/my_first_package/light_switcher_pub\n'}
+[11.083467] (my_first_package) StdoutLine: {'line': b'-- Set runtime path of "/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/lib/my_first_package/light_switcher_pub" to ""\n'}
+[11.084295] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/lib/my_first_package/light_switcher_sub\n'}
+[11.097532] (my_first_package) StdoutLine: {'line': b'-- Set runtime path of "/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/lib/my_first_package/light_switcher_sub" to ""\n'}
+[11.098434] (my_first_package) StdoutLine: {'line': b'-- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/ament_index/resource_index/package_run_dependencies/my_first_package\n'}
+[11.098831] (my_first_package) StdoutLine: {'line': b'-- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/ament_index/resource_index/parent_prefix_path/my_first_package\n'}
+[11.099138] (my_first_package) StdoutLine: {'line': b'-- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/environment/ament_prefix_path.sh\n'}
+[11.099590] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/environment/ament_prefix_path.dsv\n'}
+[11.099875] (my_first_package) StdoutLine: {'line': b'-- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/environment/path.sh\n'}
+[11.100582] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/environment/path.dsv\n'}
+[11.100850] (my_first_package) StdoutLine: {'line': b'-- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/local_setup.bash\n'}
+[11.101050] (my_first_package) StdoutLine: {'line': b'-- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/local_setup.sh\n'}
+[11.101256] (my_first_package) StdoutLine: {'line': b'-- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/local_setup.zsh\n'}
+[11.101442] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/local_setup.dsv\n'}
+[11.116113] (my_first_package) StdoutLine: {'line': b'-- Installing: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/package.dsv\n'}
+[11.116441] (my_first_package) StdoutLine: {'line': b'-- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/ament_index/resource_index/packages/my_first_package\n'}
+[11.116819] (my_first_package) StdoutLine: {'line': b'-- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/cmake/my_first_packageConfig.cmake\n'}
+[11.116943] (my_first_package) StdoutLine: {'line': b'-- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/cmake/my_first_packageConfig-version.cmake\n'}
+[11.117046] (my_first_package) StdoutLine: {'line': b'-- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/package.xml\n'}
+[11.119968] (my_first_package) CommandEnded: {'returncode': 0}
+[11.140895] (-) TimerEvent: {}
+[11.243204] (-) TimerEvent: {}
+[11.343679] (-) TimerEvent: {}
+[11.444622] (-) TimerEvent: {}
+[11.545058] (-) TimerEvent: {}
+[11.646641] (-) TimerEvent: {}
+[11.658367] (my_first_package) JobEnded: {'identifier': 'my_first_package', 'rc': 0}
+[11.659929] (-) EventReactorShutdown: {}

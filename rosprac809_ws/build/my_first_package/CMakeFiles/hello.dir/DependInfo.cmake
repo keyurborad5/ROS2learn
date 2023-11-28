@@ -18,6 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/include/my_first_package"
   "/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/include/light_switcher_pub"
+  "/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/include/light_switcher_sub"
   "/opt/ros/galactic/include"
   )
 

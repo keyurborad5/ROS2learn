@@ -68,18 +68,6 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -135,6 +123,18 @@ test/fast: test
 
 .PHONY : test/fast
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
 # The main all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package/CMakeFiles /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package/CMakeFiles/progress.marks
@@ -166,6 +166,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named light_switcher_sub
+
+# Build rule for target.
+light_switcher_sub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 light_switcher_sub
+.PHONY : light_switcher_sub
+
+# fast build rule for target.
+light_switcher_sub/fast:
+	$(MAKE) -f CMakeFiles/light_switcher_sub.dir/build.make CMakeFiles/light_switcher_sub.dir/build
+.PHONY : light_switcher_sub/fast
 
 #=============================================================================
 # Target rules for targets named light_switcher_pub
@@ -246,6 +259,33 @@ src/light_switcher_pub.cpp.s:
 	$(MAKE) -f CMakeFiles/light_switcher_pub.dir/build.make CMakeFiles/light_switcher_pub.dir/src/light_switcher_pub.cpp.s
 .PHONY : src/light_switcher_pub.cpp.s
 
+src/light_switcher_sub.o: src/light_switcher_sub.cpp.o
+
+.PHONY : src/light_switcher_sub.o
+
+# target to build an object file
+src/light_switcher_sub.cpp.o:
+	$(MAKE) -f CMakeFiles/light_switcher_sub.dir/build.make CMakeFiles/light_switcher_sub.dir/src/light_switcher_sub.cpp.o
+.PHONY : src/light_switcher_sub.cpp.o
+
+src/light_switcher_sub.i: src/light_switcher_sub.cpp.i
+
+.PHONY : src/light_switcher_sub.i
+
+# target to preprocess a source file
+src/light_switcher_sub.cpp.i:
+	$(MAKE) -f CMakeFiles/light_switcher_sub.dir/build.make CMakeFiles/light_switcher_sub.dir/src/light_switcher_sub.cpp.i
+.PHONY : src/light_switcher_sub.cpp.i
+
+src/light_switcher_sub.s: src/light_switcher_sub.cpp.s
+
+.PHONY : src/light_switcher_sub.s
+
+# target to generate assembly for a file
+src/light_switcher_sub.cpp.s:
+	$(MAKE) -f CMakeFiles/light_switcher_sub.dir/build.make CMakeFiles/light_switcher_sub.dir/src/light_switcher_sub.cpp.s
+.PHONY : src/light_switcher_sub.cpp.s
+
 src/my_first_package.o: src/my_first_package.cpp.o
 
 .PHONY : src/my_first_package.o
@@ -280,12 +320,13 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... install/local"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... install/local"
+	@echo "... light_switcher_sub"
 	@echo "... light_switcher_pub"
 	@echo "... hello"
 	@echo "... my_first_package_uninstall"
@@ -293,6 +334,9 @@ help:
 	@echo "... src/light_switcher_pub.o"
 	@echo "... src/light_switcher_pub.i"
 	@echo "... src/light_switcher_pub.s"
+	@echo "... src/light_switcher_sub.o"
+	@echo "... src/light_switcher_sub.i"
+	@echo "... src/light_switcher_sub.s"
 	@echo "... src/my_first_package.o"
 	@echo "... src/my_first_package.i"
 	@echo "... src/my_first_package.s"

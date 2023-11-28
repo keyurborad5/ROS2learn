@@ -1,0 +1,242 @@
+[0.000000] (-) TimerEvent: {}
+[0.000442] (my_first_package) JobQueued: {'identifier': 'my_first_package', 'dependencies': OrderedDict()}
+[0.000884] (my_first_package) JobStarted: {'identifier': 'my_first_package'}
+[0.100014] (-) TimerEvent: {}
+[0.201014] (-) TimerEvent: {}
+[0.303075] (-) TimerEvent: {}
+[0.405659] (-) TimerEvent: {}
+[0.506708] (-) TimerEvent: {}
+[0.517480] (my_first_package) JobProgress: {'identifier': 'my_first_package', 'progress': 'cmake'}
+[0.585584] (my_first_package) JobProgress: {'identifier': 'my_first_package', 'progress': 'build'}
+[0.588728] (my_first_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package', '--', '-j8', '-l8'], 'cwd': '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'keyur'), ('SSH_AGENT_PID', '1448'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/keyur'), ('OLDPWD', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1123'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3470'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install:/home/keyur/ros809_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'keyur'), ('JOURNAL_STREAM', '8:42295'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'keyur'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/keyur:@/tmp/.ICE-unix/1511,unix/keyur:/tmp/.ICE-unix/1511'), ('INVOCATION_ID', 'a8d0f4157d9f4711b6d96e816a7fb47a'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package:/home/keyur/ros809_ws/install/first_package:/home/keyur/ros809_ws/install/automated_vehicle:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:057bff8f-10c0-4989-bb52-59165c5a1def'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package:/home/keyur/ros809_ws/install/first_package:/home/keyur/ros809_ws/install/automated_vehicle:/opt/ros/galactic')]), 'shell': False}
+[0.606846] (-) TimerEvent: {}
+[0.708275] (-) TimerEvent: {}
+[0.810113] (-) TimerEvent: {}
+[0.910642] (-) TimerEvent: {}
+[1.011386] (-) TimerEvent: {}
+[1.112066] (-) TimerEvent: {}
+[1.212502] (-) TimerEvent: {}
+[1.292131] (my_first_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[1.312799] (-) TimerEvent: {}
+[1.390996] (my_first_package) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.412892] (-) TimerEvent: {}
+[1.513261] (-) TimerEvent: {}
+[1.613599] (-) TimerEvent: {}
+[1.713942] (-) TimerEvent: {}
+[1.814324] (-) TimerEvent: {}
+[1.914852] (-) TimerEvent: {}
+[1.997649] (my_first_package) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[2.015001] (-) TimerEvent: {}
+[2.115526] (-) TimerEvent: {}
+[2.216186] (-) TimerEvent: {}
+[2.316534] (-) TimerEvent: {}
+[2.347173] (my_first_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.416700] (-) TimerEvent: {}
+[2.418453] (my_first_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[2.516884] (-) TimerEvent: {}
+[2.617558] (-) TimerEvent: {}
+[2.718472] (-) TimerEvent: {}
+[2.819495] (-) TimerEvent: {}
+[2.920182] (-) TimerEvent: {}
+[3.020587] (-) TimerEvent: {}
+[3.121179] (-) TimerEvent: {}
+[3.221971] (-) TimerEvent: {}
+[3.246470] (my_first_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.322076] (-) TimerEvent: {}
+[3.422528] (-) TimerEvent: {}
+[3.468994] (my_first_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[3.490758] (my_first_package) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[3.522782] (-) TimerEvent: {}
+[3.554981] (my_first_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[3.622887] (-) TimerEvent: {}
+[3.723329] (-) TimerEvent: {}
+[3.823729] (-) TimerEvent: {}
+[3.924059] (-) TimerEvent: {}
+[4.024385] (-) TimerEvent: {}
+[4.099856] (my_first_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[4.124653] (-) TimerEvent: {}
+[4.225306] (-) TimerEvent: {}
+[4.325836] (-) TimerEvent: {}
+[4.426577] (-) TimerEvent: {}
+[4.451972] (my_first_package) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.471653] (my_first_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.475046] (my_first_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/include/my_first_package;/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/include/light_switcher_pub;/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/include/light_switcher_sub\n'}
+[4.475637] (my_first_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.479874] (my_first_package) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.480349] (my_first_package) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.504677] (my_first_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.515363] (my_first_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.515763] (my_first_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.524992] (my_first_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.526696] (-) TimerEvent: {}
+[4.532196] (my_first_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.626889] (-) TimerEvent: {}
+[4.697844] (my_first_package) StdoutLine: {'line': b'-- Generating done\n'}
+[4.702162] (my_first_package) StdoutLine: {'line': b'-- Build files have been written to: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package\n'}
+[4.727126] (-) TimerEvent: {}
+[4.748006] (my_first_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target light_switcher_sub\x1b[0m\n'}
+[4.827375] (-) TimerEvent: {}
+[4.919338] (my_first_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hello\x1b[0m\n'}
+[4.927483] (-) TimerEvent: {}
+[4.988773] (my_first_package) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/hello.dir/src/my_first_package.cpp.o\x1b[0m\n'}
+[5.027616] (-) TimerEvent: {}
+[5.033989] (my_first_package) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/light_switcher_sub.dir/src/light_switcher_sub.cpp.o\x1b[0m\n'}
+[5.042528] (my_first_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target light_switcher_pub\x1b[0m\n'}
+[5.127824] (-) TimerEvent: {}
+[5.165477] (my_first_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/light_switcher_pub.dir/src/light_switcher_pub.cpp.o\x1b[0m\n'}
+[5.227892] (-) TimerEvent: {}
+[5.328299] (-) TimerEvent: {}
+[5.428924] (-) TimerEvent: {}
+[5.529761] (-) TimerEvent: {}
+[5.630417] (-) TimerEvent: {}
+[5.731517] (-) TimerEvent: {}
+[5.832197] (-) TimerEvent: {}
+[5.932866] (-) TimerEvent: {}
+[6.033649] (-) TimerEvent: {}
+[6.134513] (-) TimerEvent: {}
+[6.235420] (-) TimerEvent: {}
+[6.336115] (-) TimerEvent: {}
+[6.437037] (-) TimerEvent: {}
+[6.538116] (-) TimerEvent: {}
+[6.639236] (-) TimerEvent: {}
+[6.740333] (-) TimerEvent: {}
+[6.841276] (-) TimerEvent: {}
+[6.941980] (-) TimerEvent: {}
+[7.043438] (-) TimerEvent: {}
+[7.144414] (-) TimerEvent: {}
+[7.245122] (-) TimerEvent: {}
+[7.345533] (-) TimerEvent: {}
+[7.446147] (-) TimerEvent: {}
+[7.546583] (-) TimerEvent: {}
+[7.647004] (-) TimerEvent: {}
+[7.747432] (-) TimerEvent: {}
+[7.847835] (-) TimerEvent: {}
+[7.948281] (-) TimerEvent: {}
+[8.048672] (-) TimerEvent: {}
+[8.149099] (-) TimerEvent: {}
+[8.249574] (-) TimerEvent: {}
+[8.350031] (-) TimerEvent: {}
+[8.450511] (-) TimerEvent: {}
+[8.551030] (-) TimerEvent: {}
+[8.651841] (-) TimerEvent: {}
+[8.752433] (-) TimerEvent: {}
+[8.852959] (-) TimerEvent: {}
+[8.953438] (-) TimerEvent: {}
+[9.054028] (-) TimerEvent: {}
+[9.154529] (-) TimerEvent: {}
+[9.254964] (-) TimerEvent: {}
+[9.355374] (-) TimerEvent: {}
+[9.455788] (-) TimerEvent: {}
+[9.556313] (-) TimerEvent: {}
+[9.656969] (-) TimerEvent: {}
+[9.757698] (-) TimerEvent: {}
+[9.858091] (-) TimerEvent: {}
+[9.958458] (-) TimerEvent: {}
+[10.058797] (-) TimerEvent: {}
+[10.159167] (-) TimerEvent: {}
+[10.259524] (-) TimerEvent: {}
+[10.296498] (my_first_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_sub.cpp:1\x1b[m\x1b[K:\n'}
+[10.297082] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/include/my_first_package/light_switcher_sub.h:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kdemo::LightSwitcherSub::LightSwitcherSub(std::string)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.297298] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/include/my_first_package/light_switcher_sub.h:13:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kdemo::LightSwitcherSub::create_subscription<std_msgs::msg::Bool>(const char [13], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.297498] (my_first_package) StderrLine: {'line': b'   13 | s->create_subscription<std_msgs::msg::Bool>("light_status",10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[10.297686] (my_first_package) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.297885] (my_first_package) StderrLine: {'line': b'\n'}
+[10.298081] (my_first_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[10.298276] (my_first_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[10.298464] (my_first_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[10.298695] (my_first_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/include/my_first_package/light_switcher_sub.h:2\x1b[m\x1b[K,\n'}
+[10.298895] (my_first_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_sub.cpp:1\x1b[m\x1b[K:\n'}
+[10.299081] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node.hpp:229:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.300051] (my_first_package) StderrLine: {'line': b'  229 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[10.300254] (my_first_package) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.300410] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node.hpp:229:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.300556] (my_first_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_sub.cpp:1\x1b[m\x1b[K:\n'}
+[10.300754] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/include/my_first_package/light_switcher_sub.h:13:89:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 5 arguments, 2 provided\n'}
+[10.301021] (my_first_package) StderrLine: {'line': b'   13 | s->create_subscription<std_msgs::msg::Bool>("light_status",10\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[10.301316] (my_first_package) StderrLine: {'line': b'      |                                                              \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[10.301655] (my_first_package) StderrLine: {'line': b'\n'}
+[10.359650] (-) TimerEvent: {}
+[10.459990] (-) TimerEvent: {}
+[10.560314] (-) TimerEvent: {}
+[10.568191] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_sub.cpp:\x1b[m\x1b[K At global scope:\n'}
+[10.568886] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_sub.cpp:4:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid demo::LightSwitcherSub::light_status_sub_cb(std_msgs::msg::Bool_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.569108] (my_first_package) StderrLine: {'line': b'    4 | void \x1b[01;31m\x1b[Kdemo\x1b[m\x1b[K::LightSwitcherSub::light_status_sub_cb(const std_msgs::msg::Bool::SharedPtr msg){\n'}
+[10.569299] (my_first_package) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[10.569493] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_sub.cpp:4:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid demo::LightSwitcherSub::light_status_sub_cb(std_msgs::msg::Bool_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.569686] (my_first_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_sub.cpp:1\x1b[m\x1b[K:\n'}
+[10.569877] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/include/my_first_package/light_switcher_sub.h:8:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass demo::LightSwitcherSub\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[10.570120] (my_first_package) StderrLine: {'line': b'    8 |     class \x1b[01;36m\x1b[KLightSwitcherSub\x1b[m\x1b[K : public rclcpp::Node{\n'}
+[10.570308] (my_first_package) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.574739] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_sub.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.575012] (my_first_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_sub.cpp:12:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Klabel \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99 defined but not used [\x1b[01;35m\x1b[K-Wunused-label\x1b[m\x1b[K]\n'}
+[10.575130] (my_first_package) StderrLine: {'line': b'   12 |     \x1b[01;35m\x1b[Krclcpp\x1b[m\x1b[K:spin(node);\n'}
+[10.575234] (my_first_package) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[10.660458] (-) TimerEvent: {}
+[10.760819] (-) TimerEvent: {}
+[10.861194] (-) TimerEvent: {}
+[10.961575] (-) TimerEvent: {}
+[11.061939] (-) TimerEvent: {}
+[11.162299] (-) TimerEvent: {}
+[11.262676] (-) TimerEvent: {}
+[11.297244] (my_first_package) StderrLine: {'line': b'make[2]: *** [CMakeFiles/light_switcher_sub.dir/build.make:63: CMakeFiles/light_switcher_sub.dir/src/light_switcher_sub.cpp.o] Error 1\n'}
+[11.297552] (my_first_package) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/light_switcher_sub.dir/all] Error 2\n'}
+[11.297695] (my_first_package) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[11.362837] (-) TimerEvent: {}
+[11.463191] (-) TimerEvent: {}
+[11.563524] (-) TimerEvent: {}
+[11.663892] (-) TimerEvent: {}
+[11.764266] (-) TimerEvent: {}
+[11.864671] (-) TimerEvent: {}
+[11.882734] (my_first_package) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable hello\x1b[0m\n'}
+[11.964888] (-) TimerEvent: {}
+[12.065334] (-) TimerEvent: {}
+[12.165853] (-) TimerEvent: {}
+[12.266603] (-) TimerEvent: {}
+[12.367403] (-) TimerEvent: {}
+[12.468373] (-) TimerEvent: {}
+[12.568943] (-) TimerEvent: {}
+[12.669394] (-) TimerEvent: {}
+[12.769823] (-) TimerEvent: {}
+[12.870326] (-) TimerEvent: {}
+[12.971051] (-) TimerEvent: {}
+[13.072065] (-) TimerEvent: {}
+[13.172985] (-) TimerEvent: {}
+[13.273322] (-) TimerEvent: {}
+[13.373715] (-) TimerEvent: {}
+[13.474524] (-) TimerEvent: {}
+[13.574973] (-) TimerEvent: {}
+[13.643155] (my_first_package) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable light_switcher_pub\x1b[0m\n'}
+[13.675175] (-) TimerEvent: {}
+[13.775700] (-) TimerEvent: {}
+[13.876339] (-) TimerEvent: {}
+[13.977041] (-) TimerEvent: {}
+[14.077980] (-) TimerEvent: {}
+[14.179180] (-) TimerEvent: {}
+[14.279974] (-) TimerEvent: {}
+[14.380803] (-) TimerEvent: {}
+[14.481646] (-) TimerEvent: {}
+[14.582548] (-) TimerEvent: {}
+[14.683433] (-) TimerEvent: {}
+[14.784098] (-) TimerEvent: {}
+[14.885265] (-) TimerEvent: {}
+[14.986207] (-) TimerEvent: {}
+[15.086974] (-) TimerEvent: {}
+[15.187688] (-) TimerEvent: {}
+[15.288709] (-) TimerEvent: {}
+[15.390312] (-) TimerEvent: {}
+[15.491784] (-) TimerEvent: {}
+[15.592439] (-) TimerEvent: {}
+[15.693248] (-) TimerEvent: {}
+[15.794190] (-) TimerEvent: {}
+[15.892085] (my_first_package) StdoutLine: {'line': b'[ 83%] Built target hello\n'}
+[15.894359] (-) TimerEvent: {}
+[15.980385] (my_first_package) StdoutLine: {'line': b'[ 83%] Built target light_switcher_pub\n'}
+[15.982003] (my_first_package) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[15.985879] (my_first_package) CommandEnded: {'returncode': 2}
+[15.994509] (-) TimerEvent: {}
+[16.096707] (-) TimerEvent: {}
+[16.198331] (-) TimerEvent: {}
+[16.299672] (-) TimerEvent: {}
+[16.400480] (-) TimerEvent: {}
+[16.430802] (my_first_package) JobEnded: {'identifier': 'my_first_package', 'rc': 2}
+[16.441559] (-) EventReactorShutdown: {}
