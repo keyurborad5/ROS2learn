@@ -23,11 +23,14 @@ endif()
 include_directories(include/my_first_package)
 add_executable(hello src/my_first_package.cpp)
 
-ament_target_dependencies(hello rclcpp)
+include_directories(include/light_switcher_pub)
+add_executable(light_switcher_pub src/light_switcher_pub.cpp)
 
-install(TARGETS
-hello
-DESTINATION lib/${PROJECT_NAME})
+ament_target_dependencies(hello rclcpp)
+ament_target_dependencies(light_switcher_pub rclcpp)
+
+install(TARGETS hello DESTINATION lib/${PROJECT_NAME})
+install(TARGETS light_switcher_pub DESTINATION lib/${PROJECT_NAME})
 #install(DIRECTORY include DESTINATION share/${PROJECT_NAME})
 
 ament_package()

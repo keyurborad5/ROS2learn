@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target light_switcher_pub[0m
+[ 50%] Built target hello
+[ 75%] [32mBuilding CXX object CMakeFiles/light_switcher_pub.dir/src/light_switcher_pub.cpp.o[0m
+[01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_pub.cpp:10:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   10 |     rclcpp::shutdown()
+      |                       [01;31m[K^[m[K
+      |                       [32m[K;[m[K
+   11 | [32m[K}[m[K
+      | [32m[K~[m[K                      
+make[2]: *** [CMakeFiles/light_switcher_pub.dir/build.make:63: CMakeFiles/light_switcher_pub.dir/src/light_switcher_pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/light_switcher_pub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

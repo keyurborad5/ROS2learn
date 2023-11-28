@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named light_switcher_pub
+
+# Build rule for target.
+light_switcher_pub: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 light_switcher_pub
+.PHONY : light_switcher_pub
+
+# fast build rule for target.
+light_switcher_pub/fast:
+	$(MAKE) -f CMakeFiles/light_switcher_pub.dir/build.make CMakeFiles/light_switcher_pub.dir/build
+.PHONY : light_switcher_pub/fast
+
+#=============================================================================
 # Target rules for targets named hello
 
 # Build rule for target.
@@ -205,6 +218,33 @@ uninstall: cmake_check_build_system
 uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
+
+src/light_switcher_pub.o: src/light_switcher_pub.cpp.o
+
+.PHONY : src/light_switcher_pub.o
+
+# target to build an object file
+src/light_switcher_pub.cpp.o:
+	$(MAKE) -f CMakeFiles/light_switcher_pub.dir/build.make CMakeFiles/light_switcher_pub.dir/src/light_switcher_pub.cpp.o
+.PHONY : src/light_switcher_pub.cpp.o
+
+src/light_switcher_pub.i: src/light_switcher_pub.cpp.i
+
+.PHONY : src/light_switcher_pub.i
+
+# target to preprocess a source file
+src/light_switcher_pub.cpp.i:
+	$(MAKE) -f CMakeFiles/light_switcher_pub.dir/build.make CMakeFiles/light_switcher_pub.dir/src/light_switcher_pub.cpp.i
+.PHONY : src/light_switcher_pub.cpp.i
+
+src/light_switcher_pub.s: src/light_switcher_pub.cpp.s
+
+.PHONY : src/light_switcher_pub.s
+
+# target to generate assembly for a file
+src/light_switcher_pub.cpp.s:
+	$(MAKE) -f CMakeFiles/light_switcher_pub.dir/build.make CMakeFiles/light_switcher_pub.dir/src/light_switcher_pub.cpp.s
+.PHONY : src/light_switcher_pub.cpp.s
 
 src/my_first_package.o: src/my_first_package.cpp.o
 
@@ -246,9 +286,13 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... light_switcher_pub"
 	@echo "... hello"
 	@echo "... my_first_package_uninstall"
 	@echo "... uninstall"
+	@echo "... src/light_switcher_pub.o"
+	@echo "... src/light_switcher_pub.i"
+	@echo "... src/light_switcher_pub.s"
 	@echo "... src/my_first_package.o"
 	@echo "... src/my_first_package.i"
 	@echo "... src/my_first_package.s"

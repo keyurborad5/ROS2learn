@@ -607,6 +607,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/light_switcher_pub.dir/DependInfo.cmake"
   "CMakeFiles/hello.dir/DependInfo.cmake"
   "CMakeFiles/my_first_package_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/uninstall.dir/DependInfo.cmake"

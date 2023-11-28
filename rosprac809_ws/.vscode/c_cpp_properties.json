@@ -9,7 +9,8 @@
                 "/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/include/**",
                 "/opt/ros/galactic/include/**",
                 "/usr/include/**",
-                "/opt/ros/galactic/include/rclcpp"
+                "/opt/ros/galactic/include/rclcpp",
+                "/opt/ros/galactic/include"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",

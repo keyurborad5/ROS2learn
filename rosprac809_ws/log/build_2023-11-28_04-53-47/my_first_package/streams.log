@@ -1,0 +1,15 @@
+[0.501s] Invoking command in '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package -- -j8 -l8
+[1.175s] [35m[1mScanning dependencies of target light_switcher_pub[0m
+[1.222s] [ 50%] Built target hello
+[1.313s] [ 75%] [32mBuilding CXX object CMakeFiles/light_switcher_pub.dir/src/light_switcher_pub.cpp.o[0m
+[4.242s] [01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.242s] [01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/my_first_package/src/light_switcher_pub.cpp:10:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[4.242s]    10 |     rclcpp::shutdown()
+[4.242s]       |                       [01;31m[K^[m[K
+[4.242s]       |                       [32m[K;[m[K
+[4.242s]    11 | [32m[K}[m[K
+[4.242s]       | [32m[K~[m[K                      
+[5.730s] make[2]: *** [CMakeFiles/light_switcher_pub.dir/build.make:63: CMakeFiles/light_switcher_pub.dir/src/light_switcher_pub.cpp.o] Error 1
+[5.730s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/light_switcher_pub.dir/all] Error 2
+[5.731s] make: *** [Makefile:141: all] Error 2
+[5.735s] Invoked command in '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package -- -j8 -l8
