@@ -11,8 +11,8 @@ namespace demo{
         //creating constructor
         LightSwitcherPub(std::string node_name): Node(node_name){
             //initiating attribute publisher_
-            publisher_ =this->create_publisher<std_msgs::msg::Bool>("light_status", 1); //creating publisher with msg type bool and ( topic , buffer size)
-            timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind(&LightSwitcherPub::light_status_timer_cb, this));
+            publisher_ =this->create_publisher<std_msgs::msg::Bool>("light_status", 10); //creating publisher with msg type bool and ( topic , buffer size)
+            timer_ = this->create_wall_timer(std::chrono::milliseconds(500), std::bind(&LightSwitcherPub::light_status_timer_cb, this));
             
         }
         private:
@@ -20,6 +20,8 @@ namespace demo{
         rclcpp::Publisher<std_msgs::msg::Bool>::SharedPtr publisher_;
 
         rclcpp::TimerBase::SharedPtr timer_;
+
+        bool light_status_=false;
 
         void light_status_timer_cb();
 
