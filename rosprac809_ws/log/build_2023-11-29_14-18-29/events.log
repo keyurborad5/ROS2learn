@@ -1,0 +1,216 @@
+[0.000000] (-) TimerEvent: {}
+[0.000384] (-) JobUnselected: {'identifier': 'my_first_package'}
+[0.000917] (automated_vehicle) JobQueued: {'identifier': 'automated_vehicle', 'dependencies': OrderedDict()}
+[0.000957] (automated_vehicle) JobStarted: {'identifier': 'automated_vehicle'}
+[0.101054] (-) TimerEvent: {}
+[0.206390] (-) TimerEvent: {}
+[0.306937] (-) TimerEvent: {}
+[0.407909] (-) TimerEvent: {}
+[0.508523] (-) TimerEvent: {}
+[0.609074] (-) TimerEvent: {}
+[0.709951] (-) TimerEvent: {}
+[0.764950] (automated_vehicle) JobProgress: {'identifier': 'automated_vehicle', 'progress': 'cmake'}
+[0.803516] (automated_vehicle) JobProgress: {'identifier': 'automated_vehicle', 'progress': 'build'}
+[0.807319] (automated_vehicle) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/automated_vehicle', '--', '-j8', '-l8'], 'cwd': '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/automated_vehicle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'keyur'), ('SSH_AGENT_PID', '1448'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/keyur'), ('OLDPWD', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1123'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '27406'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install:/home/keyur/ros809_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'keyur'), ('JOURNAL_STREAM', '8:42295'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'keyur'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/keyur:@/tmp/.ICE-unix/1511,unix/keyur:/tmp/.ICE-unix/1511'), ('INVOCATION_ID', 'a8d0f4157d9f4711b6d96e816a7fb47a'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package:/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle:/home/keyur/ros809_ws/install/first_package:/home/keyur/ros809_ws/install/automated_vehicle:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:12c411fc-24eb-4478-962c-0d2ebb71a9eb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/automated_vehicle'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package:/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle:/home/keyur/ros809_ws/install/first_package:/home/keyur/ros809_ws/install/automated_vehicle:/opt/ros/galactic')]), 'shell': False}
+[0.811983] (-) TimerEvent: {}
+[0.912778] (-) TimerEvent: {}
+[1.013441] (-) TimerEvent: {}
+[1.113981] (-) TimerEvent: {}
+[1.214765] (-) TimerEvent: {}
+[1.315388] (-) TimerEvent: {}
+[1.331486] (automated_vehicle) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[1.415546] (-) TimerEvent: {}
+[1.431411] (automated_vehicle) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.515752] (-) TimerEvent: {}
+[1.616311] (-) TimerEvent: {}
+[1.716692] (-) TimerEvent: {}
+[1.817247] (-) TimerEvent: {}
+[1.917975] (-) TimerEvent: {}
+[1.984760] (automated_vehicle) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[2.018218] (-) TimerEvent: {}
+[2.118951] (-) TimerEvent: {}
+[2.219583] (-) TimerEvent: {}
+[2.320338] (-) TimerEvent: {}
+[2.421013] (-) TimerEvent: {}
+[2.451643] (automated_vehicle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.518720] (automated_vehicle) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[2.521199] (-) TimerEvent: {}
+[2.621831] (-) TimerEvent: {}
+[2.722840] (-) TimerEvent: {}
+[2.823510] (-) TimerEvent: {}
+[2.924015] (-) TimerEvent: {}
+[3.015252] (automated_vehicle) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.024277] (-) TimerEvent: {}
+[3.124923] (-) TimerEvent: {}
+[3.225442] (-) TimerEvent: {}
+[3.311041] (automated_vehicle) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[3.325725] (-) TimerEvent: {}
+[3.332649] (automated_vehicle) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[3.426015] (-) TimerEvent: {}
+[3.473591] (automated_vehicle) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[3.526214] (-) TimerEvent: {}
+[3.626970] (-) TimerEvent: {}
+[3.727696] (-) TimerEvent: {}
+[3.828032] (-) TimerEvent: {}
+[3.919351] (automated_vehicle) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[3.928207] (-) TimerEvent: {}
+[4.028650] (-) TimerEvent: {}
+[4.129101] (-) TimerEvent: {}
+[4.141972] (automated_vehicle) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[4.229232] (-) TimerEvent: {}
+[4.329705] (-) TimerEvent: {}
+[4.430598] (-) TimerEvent: {}
+[4.491432] (automated_vehicle) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.506855] (automated_vehicle) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.507415] (automated_vehicle) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle\n'}
+[4.507542] (automated_vehicle) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.519163] (automated_vehicle) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.519423] (automated_vehicle) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.530738] (-) TimerEvent: {}
+[4.544226] (automated_vehicle) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.555813] (automated_vehicle) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.556715] (automated_vehicle) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.565453] (automated_vehicle) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.579506] (automated_vehicle) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.631002] (-) TimerEvent: {}
+[4.731770] (-) TimerEvent: {}
+[4.803084] (automated_vehicle) StdoutLine: {'line': b'-- Generating done\n'}
+[4.806861] (automated_vehicle) StdoutLine: {'line': b'-- Build files have been written to: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/automated_vehicle\n'}
+[4.831918] (-) TimerEvent: {}
+[4.926964] (automated_vehicle) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_driver\x1b[0m\n'}
+[4.932225] (-) TimerEvent: {}
+[5.032714] (-) TimerEvent: {}
+[5.132339] (automated_vehicle) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/camera_driver.dir/src/camera.cpp.o\x1b[0m\n'}
+[5.133033] (-) TimerEvent: {}
+[5.233631] (-) TimerEvent: {}
+[5.334401] (-) TimerEvent: {}
+[5.434936] (-) TimerEvent: {}
+[5.535994] (-) TimerEvent: {}
+[5.636840] (-) TimerEvent: {}
+[5.737395] (-) TimerEvent: {}
+[5.837844] (-) TimerEvent: {}
+[5.938807] (-) TimerEvent: {}
+[6.039674] (-) TimerEvent: {}
+[6.140551] (-) TimerEvent: {}
+[6.241273] (-) TimerEvent: {}
+[6.341853] (-) TimerEvent: {}
+[6.442621] (-) TimerEvent: {}
+[6.543463] (-) TimerEvent: {}
+[6.644251] (-) TimerEvent: {}
+[6.745059] (-) TimerEvent: {}
+[6.845824] (-) TimerEvent: {}
+[6.946571] (-) TimerEvent: {}
+[7.047311] (-) TimerEvent: {}
+[7.148039] (-) TimerEvent: {}
+[7.248628] (-) TimerEvent: {}
+[7.349424] (-) TimerEvent: {}
+[7.450274] (-) TimerEvent: {}
+[7.551043] (-) TimerEvent: {}
+[7.651736] (-) TimerEvent: {}
+[7.752091] (-) TimerEvent: {}
+[7.852429] (-) TimerEvent: {}
+[7.952766] (-) TimerEvent: {}
+[8.053108] (-) TimerEvent: {}
+[8.153473] (-) TimerEvent: {}
+[8.253834] (-) TimerEvent: {}
+[8.354175] (-) TimerEvent: {}
+[8.454538] (-) TimerEvent: {}
+[8.554914] (-) TimerEvent: {}
+[8.655267] (-) TimerEvent: {}
+[8.755645] (-) TimerEvent: {}
+[8.856043] (-) TimerEvent: {}
+[8.956436] (-) TimerEvent: {}
+[9.056791] (-) TimerEvent: {}
+[9.157146] (-) TimerEvent: {}
+[9.257500] (-) TimerEvent: {}
+[9.357842] (-) TimerEvent: {}
+[9.458186] (-) TimerEvent: {}
+[9.558565] (-) TimerEvent: {}
+[9.658958] (-) TimerEvent: {}
+[9.759330] (-) TimerEvent: {}
+[9.859722] (-) TimerEvent: {}
+[9.960075] (-) TimerEvent: {}
+[10.060428] (-) TimerEvent: {}
+[10.160778] (-) TimerEvent: {}
+[10.261131] (-) TimerEvent: {}
+[10.361473] (-) TimerEvent: {}
+[10.461814] (-) TimerEvent: {}
+[10.562176] (-) TimerEvent: {}
+[10.662526] (-) TimerEvent: {}
+[10.762873] (-) TimerEvent: {}
+[10.863203] (-) TimerEvent: {}
+[10.963550] (-) TimerEvent: {}
+[11.063911] (-) TimerEvent: {}
+[11.164255] (-) TimerEvent: {}
+[11.264605] (-) TimerEvent: {}
+[11.364940] (-) TimerEvent: {}
+[11.465279] (-) TimerEvent: {}
+[11.565596] (-) TimerEvent: {}
+[11.665991] (-) TimerEvent: {}
+[11.766796] (-) TimerEvent: {}
+[11.867677] (-) TimerEvent: {}
+[11.968575] (-) TimerEvent: {}
+[12.069559] (-) TimerEvent: {}
+[12.170542] (-) TimerEvent: {}
+[12.271555] (-) TimerEvent: {}
+[12.372488] (-) TimerEvent: {}
+[12.473456] (-) TimerEvent: {}
+[12.574441] (-) TimerEvent: {}
+[12.675490] (-) TimerEvent: {}
+[12.776485] (-) TimerEvent: {}
+[12.877221] (-) TimerEvent: {}
+[12.977592] (-) TimerEvent: {}
+[13.078013] (-) TimerEvent: {}
+[13.178808] (-) TimerEvent: {}
+[13.279464] (-) TimerEvent: {}
+[13.379997] (-) TimerEvent: {}
+[13.481068] (-) TimerEvent: {}
+[13.543504] (automated_vehicle) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable camera_driver\x1b[0m\n'}
+[13.581259] (-) TimerEvent: {}
+[13.681864] (-) TimerEvent: {}
+[13.782621] (-) TimerEvent: {}
+[13.883127] (-) TimerEvent: {}
+[13.983954] (-) TimerEvent: {}
+[14.084592] (-) TimerEvent: {}
+[14.185062] (-) TimerEvent: {}
+[14.285855] (-) TimerEvent: {}
+[14.386586] (-) TimerEvent: {}
+[14.487016] (-) TimerEvent: {}
+[14.587407] (-) TimerEvent: {}
+[14.687875] (-) TimerEvent: {}
+[14.788293] (-) TimerEvent: {}
+[14.859542] (automated_vehicle) StdoutLine: {'line': b'[100%] Built target camera_driver\n'}
+[14.876490] (automated_vehicle) CommandEnded: {'returncode': 0}
+[14.888460] (-) TimerEvent: {}
+[14.910067] (automated_vehicle) JobProgress: {'identifier': 'automated_vehicle', 'progress': 'install'}
+[14.924386] (automated_vehicle) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/automated_vehicle'], 'cwd': '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/automated_vehicle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'keyur'), ('SSH_AGENT_PID', '1448'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/keyur'), ('OLDPWD', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1123'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '27406'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install:/home/keyur/ros809_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'keyur'), ('JOURNAL_STREAM', '8:42295'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'keyur'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/keyur:@/tmp/.ICE-unix/1511,unix/keyur:/tmp/.ICE-unix/1511'), ('INVOCATION_ID', 'a8d0f4157d9f4711b6d96e816a7fb47a'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package:/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle:/home/keyur/ros809_ws/install/first_package:/home/keyur/ros809_ws/install/automated_vehicle:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:12c411fc-24eb-4478-962c-0d2ebb71a9eb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/automated_vehicle'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package:/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle:/home/keyur/ros809_ws/install/first_package:/home/keyur/ros809_ws/install/automated_vehicle:/opt/ros/galactic')]), 'shell': False}
+[14.935918] (automated_vehicle) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.936317] (automated_vehicle) StdoutLine: {'line': b'-- Installing: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/lib/automated_vehicle/camera_driver\n'}
+[14.937789] (automated_vehicle) StdoutLine: {'line': b'-- Set runtime path of "/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/lib/automated_vehicle/camera_driver" to ""\n'}
+[14.965429] (automated_vehicle) StdoutLine: {'line': b'-- Installing: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/include\n'}
+[14.965826] (automated_vehicle) StdoutLine: {'line': b'-- Installing: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/include/automated_vehicle\n'}
+[14.966170] (automated_vehicle) StdoutLine: {'line': b'-- Installing: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/include/automated_vehicle/camera.h\n'}
+[14.966343] (automated_vehicle) StdoutLine: {'line': b'-- Installing: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/ament_index/resource_index/package_run_dependencies/automated_vehicle\n'}
+[14.977599] (automated_vehicle) StdoutLine: {'line': b'-- Installing: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/ament_index/resource_index/parent_prefix_path/automated_vehicle\n'}
+[14.978477] (automated_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/environment/ament_prefix_path.sh\n'}
+[14.978877] (automated_vehicle) StdoutLine: {'line': b'-- Installing: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/environment/ament_prefix_path.dsv\n'}
+[14.979252] (automated_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/environment/path.sh\n'}
+[14.979460] (automated_vehicle) StdoutLine: {'line': b'-- Installing: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/environment/path.dsv\n'}
+[14.979779] (automated_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/local_setup.bash\n'}
+[14.980023] (automated_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/local_setup.sh\n'}
+[14.980398] (automated_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/local_setup.zsh\n'}
+[14.980797] (automated_vehicle) StdoutLine: {'line': b'-- Installing: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/local_setup.dsv\n'}
+[14.980983] (automated_vehicle) StdoutLine: {'line': b'-- Installing: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/package.dsv\n'}
+[14.981330] (automated_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/ament_index/resource_index/packages/automated_vehicle\n'}
+[14.981679] (automated_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/cmake/automated_vehicleConfig.cmake\n'}
+[14.981925] (automated_vehicle) StdoutLine: {'line': b'-- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/cmake/automated_vehicleConfig-version.cmake\n'}
+[14.982103] (automated_vehicle) StdoutLine: {'line': b'-- Installing: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/package.xml\n'}
+[14.986143] (automated_vehicle) CommandEnded: {'returncode': 0}
+[14.991067] (-) TimerEvent: {}
+[15.094219] (-) TimerEvent: {}
+[15.194631] (-) TimerEvent: {}
+[15.295323] (-) TimerEvent: {}
+[15.397835] (-) TimerEvent: {}
+[15.502727] (-) TimerEvent: {}
+[15.584200] (automated_vehicle) JobEnded: {'identifier': 'automated_vehicle', 'rc': 0}
+[15.584972] (-) EventReactorShutdown: {}

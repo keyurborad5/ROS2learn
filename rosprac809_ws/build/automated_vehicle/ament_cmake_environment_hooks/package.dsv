@@ -1,0 +1,4 @@
+source;share/automated_vehicle/local_setup.bash
+source;share/automated_vehicle/local_setup.dsv
+source;share/automated_vehicle/local_setup.sh
+source;share/automated_vehicle/local_setup.zsh

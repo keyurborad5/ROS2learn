@@ -1,0 +1,1002 @@
+[0.000000] (-) TimerEvent: {}
+[0.000682] (-) JobUnselected: {'identifier': 'my_first_package'}
+[0.000738] (automated_vehicle) JobQueued: {'identifier': 'automated_vehicle', 'dependencies': OrderedDict()}
+[0.000780] (automated_vehicle) JobStarted: {'identifier': 'automated_vehicle'}
+[0.101125] (-) TimerEvent: {}
+[0.202558] (-) TimerEvent: {}
+[0.278332] (automated_vehicle) JobProgress: {'identifier': 'automated_vehicle', 'progress': 'cmake'}
+[0.279367] (automated_vehicle) JobProgress: {'identifier': 'automated_vehicle', 'progress': 'build'}
+[0.280310] (automated_vehicle) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/automated_vehicle', '--', '-j8', '-l8'], 'cwd': '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/automated_vehicle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'keyur'), ('SSH_AGENT_PID', '1448'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/keyur'), ('OLDPWD', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1123'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3470'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install:/home/keyur/ros809_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'keyur'), ('JOURNAL_STREAM', '8:42295'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'keyur'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/keyur:@/tmp/.ICE-unix/1511,unix/keyur:/tmp/.ICE-unix/1511'), ('INVOCATION_ID', 'a8d0f4157d9f4711b6d96e816a7fb47a'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle:/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package:/home/keyur/ros809_ws/install/first_package:/home/keyur/ros809_ws/install/automated_vehicle:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:3353c0a2-1212-41a4-bf75-252fffefd27e'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/automated_vehicle'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle:/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package:/home/keyur/ros809_ws/install/first_package:/home/keyur/ros809_ws/install/automated_vehicle:/opt/ros/galactic')]), 'shell': False}
+[0.302732] (-) TimerEvent: {}
+[0.355248] (automated_vehicle) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/camera_driver.dir/src/camera.cpp.o\x1b[0m\n'}
+[0.402886] (-) TimerEvent: {}
+[0.503200] (-) TimerEvent: {}
+[0.603597] (-) TimerEvent: {}
+[0.703945] (-) TimerEvent: {}
+[0.804280] (-) TimerEvent: {}
+[0.904641] (-) TimerEvent: {}
+[1.005015] (-) TimerEvent: {}
+[1.105371] (-) TimerEvent: {}
+[1.205713] (-) TimerEvent: {}
+[1.306143] (-) TimerEvent: {}
+[1.406466] (-) TimerEvent: {}
+[1.506895] (-) TimerEvent: {}
+[1.607813] (-) TimerEvent: {}
+[1.709497] (-) TimerEvent: {}
+[1.809978] (-) TimerEvent: {}
+[1.910875] (-) TimerEvent: {}
+[2.011263] (-) TimerEvent: {}
+[2.111839] (-) TimerEvent: {}
+[2.212436] (-) TimerEvent: {}
+[2.312939] (-) TimerEvent: {}
+[2.413288] (-) TimerEvent: {}
+[2.513596] (-) TimerEvent: {}
+[2.613918] (-) TimerEvent: {}
+[2.677636] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid automated_vehicle::Camera::camera_pub_data_cb()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.678213] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:8:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kconst char [12]\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[2.678403] (automated_vehicle) StderrLine: {'line': b'    8 |     message.data = \x1b[01;31m\x1b[K"front image"\x1b[m\x1b[K;\n'}
+[2.678549] (automated_vehicle) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.678692] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/vector:72\x1b[m\x1b[K,\n'}
+[2.678867] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:62\x1b[m\x1b[K,\n'}
+[2.679005] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[2.679151] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[2.679300] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[2.679439] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.679583] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.679757] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.679904] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.680067] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.680190] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/vector.tcc:198:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(const std::vector<_Tp, _Alloc>&) [with _Tp = unsigned char; _Alloc = std::allocator<unsigned char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.680282] (automated_vehicle) StderrLine: {'line': b'  198 |     \x1b[01;36m\x1b[Kvector<_Tp, _Alloc>\x1b[m\x1b[K::\n'}
+[2.680364] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.680445] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/vector.tcc:199:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [12]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<unsigned char, std::allocator<unsigned char> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.680529] (automated_vehicle) StderrLine: {'line': b'  199 |     operator=(\x1b[01;36m\x1b[Kconst vector<_Tp, _Alloc>& __x\x1b[m\x1b[K)\n'}
+[2.680612] (automated_vehicle) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.680693] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/vector:67\x1b[m\x1b[K,\n'}
+[2.680773] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/functional:62\x1b[m\x1b[K,\n'}
+[2.680854] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[2.680935] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:71\x1b[m\x1b[K,\n'}
+[2.681014] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[2.681092] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.681173] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.681254] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.681334] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.681417] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.681499] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:706:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::vector<_Tp, _Alloc>&&) [with _Tp = unsigned char; _Alloc = std::allocator<unsigned char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.681597] (automated_vehicle) StderrLine: {'line': b'  706 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(vector&& __x) noexcept(_Alloc_traits::_S_nothrow_move())\n'}
+[2.681679] (automated_vehicle) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.681758] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:706:26:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [12]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.681848] (automated_vehicle) StderrLine: {'line': b'  706 |       operator=(\x1b[01;36m\x1b[Kvector&& __x\x1b[m\x1b[K) noexcept(_Alloc_traits::_S_nothrow_move())\n'}
+[2.681935] (automated_vehicle) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.682016] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:727:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<_Tp, _Alloc>& std::vector<_Tp, _Alloc>::operator=(std::initializer_list<_Tp>) [with _Tp = unsigned char; _Alloc = std::allocator<unsigned char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.682104] (automated_vehicle) StderrLine: {'line': b'  727 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(initializer_list<value_type> __l)\n'}
+[2.682187] (automated_vehicle) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.682268] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:727:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst char [12]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<unsigned char>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.682351] (automated_vehicle) StderrLine: {'line': b'  727 |       operator=(\x1b[01;36m\x1b[Kinitializer_list<value_type> __l\x1b[m\x1b[K)\n'}
+[2.682431] (automated_vehicle) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.687286] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.689358] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.692145] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.695515] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.697388] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.697491] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.697576] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.697657] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.697739] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.697818] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.697906] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.697986] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.698064] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator<<\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[2.698171] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "\x1b[01;31m\x1b[K<<\x1b[m\x1b[K\x1b[32m\x1b[Kmessage.data\x1b[m\x1b[K);\n'}
+[2.698252] (automated_vehicle) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.698330] (automated_vehicle) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.698409] (automated_vehicle) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type {aka std::vector<unsigned char, std::allocator<unsigned char> >}\x1b[m\x1b[K\n'}
+[2.698490] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[2.698567] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[2.698649] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.698727] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.698805] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.698883] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.698962] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.699060] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:108:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.699167] (automated_vehicle) StderrLine: {'line': b'  108 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(__ostream_type& (*__pf)(__ostream_type&))\n'}
+[2.699251] (automated_vehicle) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.699335] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:108:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>& (*)(std::basic_ostream<char>&)\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.699434] (automated_vehicle) StderrLine: {'line': b'  108 |       operator<<(\x1b[01;36m\x1b[K__ostream_type& (*__pf)(__ostream_type&)\x1b[m\x1b[K)\n'}
+[2.699517] (automated_vehicle) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.699600] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:117:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.699690] (automated_vehicle) StderrLine: {'line': b'  117 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(__ios_type& (*__pf)(__ios_type&))\n'}
+[2.699772] (automated_vehicle) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.699856] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:117:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ios<char>& (*)(std::basic_ios<char>&)\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.699950] (automated_vehicle) StderrLine: {'line': b'  117 |       operator<<(\x1b[01;36m\x1b[K__ios_type& (*__pf)(__ios_type&)\x1b[m\x1b[K)\n'}
+[2.700032] (automated_vehicle) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.700140] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:127:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.700228] (automated_vehicle) StderrLine: {'line': b'  127 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(ios_base& (*__pf) (ios_base&))\n'}
+[2.700312] (automated_vehicle) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.700396] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:127:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::ios_base& (*)(std::ios_base&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.700484] (automated_vehicle) StderrLine: {'line': b'  127 |       operator<<(\x1b[01;36m\x1b[Kios_base& (*__pf) (ios_base&)\x1b[m\x1b[K)\n'}
+[2.700580] (automated_vehicle) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.700664] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:166:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.700752] (automated_vehicle) StderrLine: {'line': b'  166 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(long __n)\n'}
+[2.700835] (automated_vehicle) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.700917] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:166:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.701005] (automated_vehicle) StderrLine: {'line': b'  166 |       operator<<(\x1b[01;36m\x1b[Klong __n\x1b[m\x1b[K)\n'}
+[2.701092] (automated_vehicle) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~^~~\x1b[m\x1b[K\n'}
+[2.701178] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:170:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.701276] (automated_vehicle) StderrLine: {'line': b'  170 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned long __n)\n'}
+[2.701360] (automated_vehicle) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.701441] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:170:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.701527] (automated_vehicle) StderrLine: {'line': b'  170 |       operator<<(\x1b[01;36m\x1b[Kunsigned long __n\x1b[m\x1b[K)\n'}
+[2.701610] (automated_vehicle) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.701693] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:174:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.701780] (automated_vehicle) StderrLine: {'line': b'  174 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(bool __n)\n'}
+[2.701863] (automated_vehicle) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.701946] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:174:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.702038] (automated_vehicle) StderrLine: {'line': b'  174 |       operator<<(\x1b[01;36m\x1b[Kbool __n\x1b[m\x1b[K)\n'}
+[2.702121] (automated_vehicle) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~^~~\x1b[m\x1b[K\n'}
+[2.702202] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/ostream:702\x1b[m\x1b[K,\n'}
+[2.702285] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[2.702367] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[2.702451] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.702534] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.702618] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.702701] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.702786] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.702869] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/ostream.tcc:91:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.702955] (automated_vehicle) StderrLine: {'line': b'   91 |     \x1b[01;36m\x1b[Kbasic_ostream<_CharT, _Traits>\x1b[m\x1b[K::\n'}
+[2.703042] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.703125] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/ostream.tcc:92:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kshort int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.703217] (automated_vehicle) StderrLine: {'line': b'   92 |     operator<<(\x1b[01;36m\x1b[Kshort __n\x1b[m\x1b[K)\n'}
+[2.703300] (automated_vehicle) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.703383] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[2.703466] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[2.703550] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.703633] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.703714] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.703795] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.703886] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.703968] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:181:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.704092] (automated_vehicle) StderrLine: {'line': b'  181 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned short __n)\n'}
+[2.704172] (automated_vehicle) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.704249] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:181:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kshort unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.704330] (automated_vehicle) StderrLine: {'line': b'  181 |       operator<<(\x1b[01;36m\x1b[Kunsigned short __n\x1b[m\x1b[K)\n'}
+[2.704406] (automated_vehicle) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.704483] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/ostream:702\x1b[m\x1b[K,\n'}
+[2.704560] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[2.704636] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[2.704713] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.704791] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.704867] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.704942] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.705034] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.705116] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/ostream.tcc:105:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.705200] (automated_vehicle) StderrLine: {'line': b'  105 |     \x1b[01;36m\x1b[Kbasic_ostream<_CharT, _Traits>\x1b[m\x1b[K::\n'}
+[2.705282] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.705363] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/ostream.tcc:106:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.705462] (automated_vehicle) StderrLine: {'line': b'  106 |     operator<<(\x1b[01;36m\x1b[Kint __n\x1b[m\x1b[K)\n'}
+[2.705545] (automated_vehicle) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[2.705628] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[2.705742] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[2.705837] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.705923] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.706007] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.706095] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.706183] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.706271] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:192:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.706364] (automated_vehicle) StderrLine: {'line': b'  192 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned int __n)\n'}
+[2.706452] (automated_vehicle) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.706547] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:192:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.706675] (automated_vehicle) StderrLine: {'line': b'  192 |       operator<<(\x1b[01;36m\x1b[Kunsigned int __n\x1b[m\x1b[K)\n'}
+[2.706906] (automated_vehicle) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.707122] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:201:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.707420] (automated_vehicle) StderrLine: {'line': b'  201 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(long long __n)\n'}
+[2.707797] (automated_vehicle) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.708219] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:201:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.708555] (automated_vehicle) StderrLine: {'line': b'  201 |       operator<<(\x1b[01;36m\x1b[Klong long __n\x1b[m\x1b[K)\n'}
+[2.708811] (automated_vehicle) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.708914] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:205:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.709014] (automated_vehicle) StderrLine: {'line': b'  205 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned long long __n)\n'}
+[2.709123] (automated_vehicle) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.709208] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:205:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.709301] (automated_vehicle) StderrLine: {'line': b'  205 |       operator<<(\x1b[01;36m\x1b[Kunsigned long long __n\x1b[m\x1b[K)\n'}
+[2.709385] (automated_vehicle) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.709472] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:220:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.709568] (automated_vehicle) StderrLine: {'line': b'  220 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(double __f)\n'}
+[2.709683] (automated_vehicle) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.709773] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:220:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.709892] (automated_vehicle) StderrLine: {'line': b'  220 |       operator<<(\x1b[01;36m\x1b[Kdouble __f\x1b[m\x1b[K)\n'}
+[2.710010] (automated_vehicle) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.710124] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:224:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.710231] (automated_vehicle) StderrLine: {'line': b'  224 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(float __f)\n'}
+[2.710369] (automated_vehicle) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.710471] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:224:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.710587] (automated_vehicle) StderrLine: {'line': b'  224 |       operator<<(\x1b[01;36m\x1b[Kfloat __f\x1b[m\x1b[K)\n'}
+[2.710682] (automated_vehicle) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.710781] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:232:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.710886] (automated_vehicle) StderrLine: {'line': b'  232 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(long double __f)\n'}
+[2.710983] (automated_vehicle) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.711093] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:232:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong double\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.711224] (automated_vehicle) StderrLine: {'line': b'  232 |       operator<<(\x1b[01;36m\x1b[Klong double __f\x1b[m\x1b[K)\n'}
+[2.711319] (automated_vehicle) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.711410] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:245:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.711507] (automated_vehicle) StderrLine: {'line': b'  245 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(const void* __p)\n'}
+[2.711601] (automated_vehicle) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.711696] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:245:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst void*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.711797] (automated_vehicle) StderrLine: {'line': b'  245 |       operator<<(\x1b[01;36m\x1b[Kconst void* __p\x1b[m\x1b[K)\n'}
+[2.711891] (automated_vehicle) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.711985] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:250:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::nullptr_t) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::nullptr_t = std::nullptr_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.712181] (automated_vehicle) StderrLine: {'line': b'  250 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(nullptr_t)\n'}
+[2.712289] (automated_vehicle) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.712381] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:250:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.712478] (automated_vehicle) StderrLine: {'line': b'  250 |       operator<<(\x1b[01;36m\x1b[Knullptr_t\x1b[m\x1b[K)\n'}
+[2.712570] (automated_vehicle) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.712670] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/ostream:702\x1b[m\x1b[K,\n'}
+[2.712764] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[2.712855] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[2.712951] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.713088] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.713172] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.713257] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.713344] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.713459] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/ostream.tcc:119:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.713552] (automated_vehicle) StderrLine: {'line': b'  119 |     \x1b[01;36m\x1b[Kbasic_ostream<_CharT, _Traits>\x1b[m\x1b[K::\n'}
+[2.713636] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.713719] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/ostream.tcc:120:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>::__streambuf_type*\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_streambuf<char>*\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.713813] (automated_vehicle) StderrLine: {'line': b'  120 |     operator<<(\x1b[01;36m\x1b[K__streambuf_type* __sbin\x1b[m\x1b[K)\n'}
+[2.713892] (-) TimerEvent: {}
+[2.714009] (automated_vehicle) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.714134] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[2.714222] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[2.714315] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[2.714402] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[2.714493] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[2.714586] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[2.714673] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[2.714760] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:154\x1b[m\x1b[K,\n'}
+[2.714847] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.714934] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.715030] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/string_view:580:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::basic_string_view<_CharT, _Traits>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.715114] (automated_vehicle) StderrLine: {'line': b'  580 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os,\n'}
+[2.715194] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.715273] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/string_view:580:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.715353] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.715432] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.715511] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.715590] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.715669] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.715747] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.715830] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.715910] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.715992] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.716092] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.716175] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.716256] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.716342] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.716425] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<message.\x1b[01;36m\x1b[Kdata\x1b[m\x1b[K);\n'}
+[2.716504] (automated_vehicle) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.716583] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[2.716663] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[2.716743] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[2.716822] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[2.716902] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[2.716981] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[2.717082] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:154\x1b[m\x1b[K,\n'}
+[2.717166] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.717252] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.717339] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6419:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.717434] (automated_vehicle) StderrLine: {'line': b' 6419 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os,\n'}
+[2.717521] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.717612] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6419:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.717706] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.717792] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.717876] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.717960] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.718060] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.718147] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.718229] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.718312] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.718395] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.718476] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.718558] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.718642] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.718725] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.718818] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<message.\x1b[01;36m\x1b[Kdata\x1b[m\x1b[K);\n'}
+[2.718903] (automated_vehicle) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.718985] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[2.719080] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:154\x1b[m\x1b[K,\n'}
+[2.719159] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.719239] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.719318] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:66:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__shared_ptr<_Tp, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.719400] (automated_vehicle) StderrLine: {'line': b'   66 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_Ch, _Tr>& __os,\n'}
+[2.719479] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.719557] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:66:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.719638] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.719718] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.719803] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.719883] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.719963] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.720057] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.720144] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.720223] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.720302] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.720381] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.720459] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.720539] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.720631] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.720717] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<message.\x1b[01;36m\x1b[Kdata\x1b[m\x1b[K);\n'}
+[2.720797] (automated_vehicle) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.720875] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/mutex:42\x1b[m\x1b[K,\n'}
+[2.720954] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/future:38\x1b[m\x1b[K,\n'}
+[2.721047] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[2.721134] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.721217] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.721305] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.721388] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/system_error:217:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.721473] (automated_vehicle) StderrLine: {'line': b'  217 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)\n'}
+[2.721561] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.721643] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/system_error:217:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.721725] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.721808] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.721892] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.721975] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.722068] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.722147] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.722225] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.722302] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.722418] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.722504] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.722585] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.722667] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.722751] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmessage.sensor_msgs::msg::Image_<std::allocator<void> >::data\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.722855] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<\x1b[01;36m\x1b[Kmessage.data\x1b[m\x1b[K);\n'}
+[2.723036] (automated_vehicle) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.723204] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/future:39\x1b[m\x1b[K,\n'}
+[2.723377] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[2.723610] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.723816] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.724140] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.724507] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/thread:322:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::thread::id)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.724741] (automated_vehicle) StderrLine: {'line': b'  322 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, thread::id __id)\n'}
+[2.724914] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.725103] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/thread:322:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.725303] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.725463] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.725558] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.725660] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.725752] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.725841] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.725999] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.726193] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.726315] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.726423] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.726519] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.726616] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.726709] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmessage.sensor_msgs::msg::Image_<std::allocator<void> >::data\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::id\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.726814] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<\x1b[01;36m\x1b[Kmessage.data\x1b[m\x1b[K);\n'}
+[2.726905] (automated_vehicle) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.727052] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[2.727156] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[2.727265] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.727363] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.727460] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.727556] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.727653] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.727748] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:506:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.727846] (automated_vehicle) StderrLine: {'line': b'  506 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)\n'}
+[2.727946] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.728142] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:506:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.728246] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.728341] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.728435] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.728535] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.728624] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.728726] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.728853] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.728946] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.729038] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.729127] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.729222] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.729315] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.729419] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  deduced conflicting types for parameter \xe2\x80\x98\x1b[01m\x1b[K_CharT\x1b[m\x1b[K\xe2\x80\x99 (\xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[2.729517] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<message.\x1b[01;36m\x1b[Kdata\x1b[m\x1b[K);\n'}
+[2.729609] (automated_vehicle) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.729736] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[2.729827] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[2.729938] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.730026] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.730112] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.730199] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.730286] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.730371] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:511:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.730463] (automated_vehicle) StderrLine: {'line': b'  511 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, char __c)\n'}
+[2.730549] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.730634] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:511:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.730721] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.730808] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.730894] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.730979] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.731065] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.731149] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.731234] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.731319] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.731412] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.731498] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.731583] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.731670] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.731756] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmessage.sensor_msgs::msg::Image_<std::allocator<void> >::data\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.731864] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<\x1b[01;36m\x1b[Kmessage.data\x1b[m\x1b[K);\n'}
+[2.731950] (automated_vehicle) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.732065] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[2.732153] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[2.732234] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.732316] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.732396] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.732475] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.732555] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.732634] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:517:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.732715] (automated_vehicle) StderrLine: {'line': b'  517 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, char __c)\n'}
+[2.732793] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.732871] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:517:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.732953] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.733051] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.733146] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.733232] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.733314] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.733396] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.733479] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.733561] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.733644] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.733726] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.733809] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.733894] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.733977] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmessage.sensor_msgs::msg::Image_<std::allocator<void> >::data\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.734068] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<\x1b[01;36m\x1b[Kmessage.data\x1b[m\x1b[K);\n'}
+[2.734151] (automated_vehicle) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.734233] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[2.734316] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[2.734399] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.734483] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.734567] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.734650] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.734733] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.734826] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:523:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.734923] (automated_vehicle) StderrLine: {'line': b'  523 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, signed char __c)\n'}
+[2.735006] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.735088] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:523:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.735171] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.735254] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.735337] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.735420] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.735502] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.735585] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.735668] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.735749] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.735831] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.735915] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.735998] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.736116] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.736205] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmessage.sensor_msgs::msg::Image_<std::allocator<void> >::data\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Ksigned char\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.736295] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<\x1b[01;36m\x1b[Kmessage.data\x1b[m\x1b[K);\n'}
+[2.736377] (automated_vehicle) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.736460] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[2.736541] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[2.736630] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.736713] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.736795] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.736877] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.736960] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.737055] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:528:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.737138] (automated_vehicle) StderrLine: {'line': b'  528 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, unsigned char __c)\n'}
+[2.737219] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.737301] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:528:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.737380] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.737460] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.737547] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.737628] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.737708] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.737789] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.737875] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.737960] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.738040] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.738120] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.738199] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.738280] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.738359] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmessage.sensor_msgs::msg::Image_<std::allocator<void> >::data\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kunsigned char\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.738451] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<\x1b[01;36m\x1b[Kmessage.data\x1b[m\x1b[K);\n'}
+[2.738532] (automated_vehicle) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.738614] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[2.738694] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[2.738774] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.738854] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.738934] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.739038] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.739125] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.739206] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:548:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.739289] (automated_vehicle) StderrLine: {'line': b'  548 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)\n'}
+[2.739371] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.739453] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:548:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.739540] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.739630] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.739723] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.739842] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.740127] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.740361] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.740493] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.740601] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.740795] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.741029] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.741271] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.741504] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.741913] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.742280] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<message.\x1b[01;36m\x1b[Kdata\x1b[m\x1b[K);\n'}
+[2.742482] (automated_vehicle) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.742644] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/ostream:702\x1b[m\x1b[K,\n'}
+[2.742837] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[2.743009] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[2.743151] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.743250] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.743341] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.743440] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.743595] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.743742] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/ostream.tcc:321:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.743856] (automated_vehicle) StderrLine: {'line': b'  321 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)\n'}
+[2.743962] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.744127] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/ostream.tcc:321:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.744243] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.744363] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.744479] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.744636] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.744742] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.744843] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.744940] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.745051] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.745154] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.745245] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.745338] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.745428] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.745556] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmessage.sensor_msgs::msg::Image_<std::allocator<void> >::data\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.745657] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<\x1b[01;36m\x1b[Kmessage.data\x1b[m\x1b[K);\n'}
+[2.745758] (automated_vehicle) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.745847] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[2.745935] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[2.746024] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.746120] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.746209] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.746298] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.746413] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.746506] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:565:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.746606] (automated_vehicle) StderrLine: {'line': b'  565 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, const char* __s)\n'}
+[2.746694] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.746782] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:565:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.746877] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.746968] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.747056] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.747146] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.747233] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.747352] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.747440] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.747526] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.747613] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.747699] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.747785] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.747873] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.747958] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmessage.sensor_msgs::msg::Image_<std::allocator<void> >::data\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.748072] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<\x1b[01;36m\x1b[Kmessage.data\x1b[m\x1b[K);\n'}
+[2.748168] (automated_vehicle) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.748254] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[2.748344] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[2.748431] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.748525] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.748611] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.748696] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.748786] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.748872] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:578:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.748961] (automated_vehicle) StderrLine: {'line': b'  578 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, const signed char* __s)\n'}
+[2.749063] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.749146] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:578:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.749229] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.749312] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.749395] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.749478] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.749560] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.749642] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.749733] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.749822] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.749908] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.749990] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.750072] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.750155] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.750238] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmessage.sensor_msgs::msg::Image_<std::allocator<void> >::data\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kconst signed char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.750331] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<\x1b[01;36m\x1b[Kmessage.data\x1b[m\x1b[K);\n'}
+[2.750414] (automated_vehicle) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.750495] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[2.750577] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[2.750660] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.750745] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.750828] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.750910] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.750993] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.751079] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:583:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.751163] (automated_vehicle) StderrLine: {'line': b'  583 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)\n'}
+[2.751245] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.751327] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:583:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.751410] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.751498] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.751582] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.751664] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.751747] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.751828] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.751910] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.751990] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.752109] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.752200] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.752281] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.752362] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.752448] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmessage.sensor_msgs::msg::Image_<std::allocator<void> >::data\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kconst unsigned char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.752548] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<\x1b[01;36m\x1b[Kmessage.data\x1b[m\x1b[K);\n'}
+[2.752628] (automated_vehicle) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.752708] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[2.752787] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[2.752867] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.752948] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.753028] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.753109] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.753190] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.753270] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:691:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.753361] (automated_vehicle) StderrLine: {'line': b'  691 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(_Ostream&& __os, const _Tp& __x)\n'}
+[2.753442] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.753523] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:691:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.753603] (automated_vehicle) StderrLine: {'line': b'/usr/include/c++/9/ostream: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_ostream<char>&; _Tp = std::vector<unsigned char, std::allocator<unsigned char> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.753698] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:5:\x1b[m\x1b[K   required from here\n'}
+[2.753783] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:691:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::basic_ostream<char>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.753865] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[2.753946] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/detail/duration__traits.hpp:10\x1b[m\x1b[K,\n'}
+[2.754026] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/duration.hpp:9\x1b[m\x1b[K,\n'}
+[2.754106] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[2.754184] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[2.754263] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[2.754342] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[2.754421] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.754501] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.754581] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.754660] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.754740] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.754819] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.754897] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.754996] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.755086] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.755169] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.755253] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.755336] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:79:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Resetiosflags)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.755428] (automated_vehicle) StderrLine: {'line': b'   79 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)\n'}
+[2.755512] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.755594] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:79:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.755701] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.755790] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.755874] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.755958] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.756061] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.756157] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.756242] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.756326] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.756411] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.756500] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.756596] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.756814] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.756990] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmessage.sensor_msgs::msg::Image_<std::allocator<void> >::data\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Resetiosflags\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.757205] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<\x1b[01;36m\x1b[Kmessage.data\x1b[m\x1b[K);\n'}
+[2.757398] (automated_vehicle) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.757690] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[2.758068] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/detail/duration__traits.hpp:10\x1b[m\x1b[K,\n'}
+[2.758429] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/duration.hpp:9\x1b[m\x1b[K,\n'}
+[2.758719] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[2.758911] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[2.759022] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[2.759113] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[2.759202] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.759289] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.759375] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.759478] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.759567] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.759669] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.759816] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.760111] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.760340] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.760488] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.760636] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.760748] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:109:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setiosflags)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.760860] (automated_vehicle) StderrLine: {'line': b'  109 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)\n'}
+[2.760970] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.761083] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:109:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.761176] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.761276] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.761435] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.761608] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.761742] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.761857] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.761951] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.762043] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.762168] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.762262] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.762356] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.762451] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.762546] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmessage.sensor_msgs::msg::Image_<std::allocator<void> >::data\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setiosflags\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.762647] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<\x1b[01;36m\x1b[Kmessage.data\x1b[m\x1b[K);\n'}
+[2.762740] (automated_vehicle) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.762832] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[2.762923] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/detail/duration__traits.hpp:10\x1b[m\x1b[K,\n'}
+[2.763058] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/duration.hpp:9\x1b[m\x1b[K,\n'}
+[2.763150] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[2.763238] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[2.763332] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[2.763423] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[2.763538] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.763632] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.763725] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.763811] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.763896] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.763982] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.764094] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.764189] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.764276] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.764362] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.764448] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.764533] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:143:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setbase)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.764622] (automated_vehicle) StderrLine: {'line': b'  143 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)\n'}
+[2.764708] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.764797] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:143:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.764885] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.764971] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.765072] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.765153] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.765239] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.765321] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.765402] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.765484] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.765566] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.765648] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.765730] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.765819] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.765903] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmessage.sensor_msgs::msg::Image_<std::allocator<void> >::data\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setbase\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.765993] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<\x1b[01;36m\x1b[Kmessage.data\x1b[m\x1b[K);\n'}
+[2.766076] (automated_vehicle) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.766161] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[2.766244] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/detail/duration__traits.hpp:10\x1b[m\x1b[K,\n'}
+[2.766327] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/duration.hpp:9\x1b[m\x1b[K,\n'}
+[2.766409] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[2.766494] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[2.766578] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[2.766662] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[2.766745] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.766827] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.766908] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.767003] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.767082] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.767167] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.767253] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.767333] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.767412] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.767492] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.767576] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.767656] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:178:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setfill<_CharT>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.767738] (automated_vehicle) StderrLine: {'line': b'  178 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)\n'}
+[2.767818] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.767898] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:178:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.767982] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.768082] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.768167] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.768246] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.768325] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.768403] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.768480] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.768559] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.768638] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.768717] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.768798] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.768878] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.768959] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setfill<_CharT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.769043] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<message.\x1b[01;36m\x1b[Kdata\x1b[m\x1b[K);\n'}
+[2.769122] (automated_vehicle) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.769201] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[2.769285] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/detail/duration__traits.hpp:10\x1b[m\x1b[K,\n'}
+[2.769365] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/duration.hpp:9\x1b[m\x1b[K,\n'}
+[2.769445] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[2.769524] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[2.769603] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[2.769682] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[2.769761] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.769840] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.769918] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.769998] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.770097] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.770186] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.770274] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.770358] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.770441] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.770523] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.770604] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.770685] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:208:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setprecision)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.770775] (automated_vehicle) StderrLine: {'line': b'  208 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)\n'}
+[2.770859] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.770941] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:208:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.771038] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.771117] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.771203] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.771282] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.771361] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.771442] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.771520] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.771598] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.771677] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.771755] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.771834] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.771913] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.771992] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmessage.sensor_msgs::msg::Image_<std::allocator<void> >::data\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setprecision\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.772088] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<\x1b[01;36m\x1b[Kmessage.data\x1b[m\x1b[K);\n'}
+[2.772168] (automated_vehicle) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.772247] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[2.772340] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/detail/duration__traits.hpp:10\x1b[m\x1b[K,\n'}
+[2.772491] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/duration.hpp:9\x1b[m\x1b[K,\n'}
+[2.772647] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[2.772783] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[2.772870] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[2.772962] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[2.773069] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.773243] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.773450] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.773621] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.773833] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.774106] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.774293] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.774489] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.774717] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.774888] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.775082] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.775296] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:238:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setw)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.775470] (automated_vehicle) StderrLine: {'line': b'  238 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)\n'}
+[2.775570] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.775663] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:238:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.775761] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.775855] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.775947] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.776073] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.776178] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.776272] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.776365] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.776460] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.776562] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.776677] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.776770] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.776863] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.776957] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmessage.sensor_msgs::msg::Image_<std::allocator<void> >::data\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Image_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setw\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.777130] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<\x1b[01;36m\x1b[Kmessage.data\x1b[m\x1b[K);\n'}
+[2.777233] (automated_vehicle) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.777338] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[2.777450] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/detail/duration__traits.hpp:10\x1b[m\x1b[K,\n'}
+[2.777549] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/duration.hpp:9\x1b[m\x1b[K,\n'}
+[2.777645] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[2.777741] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[2.777837] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[2.777937] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[2.778033] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.778144] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.778236] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.778327] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.778429] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.778524] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.778622] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.778715] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.778840] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.778939] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.779050] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.779135] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:311:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_money<_MoneyT>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.779225] (automated_vehicle) StderrLine: {'line': b'  311 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)\n'}
+[2.779309] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.779392] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:311:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.779477] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.779564] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.779683] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.779769] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.779855] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.779958] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.780109] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.780199] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.780285] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.780368] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.780451] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.780540] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.780625] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Put_money<_MoneyT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.780715] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<message.\x1b[01;36m\x1b[Kdata\x1b[m\x1b[K);\n'}
+[2.780799] (automated_vehicle) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.780890] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rosidl_runtime_cpp/traits.hpp:19\x1b[m\x1b[K,\n'}
+[2.780972] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/detail/duration__traits.hpp:10\x1b[m\x1b[K,\n'}
+[2.781075] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/builtin_interfaces/msg/duration.hpp:9\x1b[m\x1b[K,\n'}
+[2.781164] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[2.781254] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[2.781343] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/node_interfaces/node_graph_interface.hpp:31\x1b[m\x1b[K,\n'}
+[2.781435] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/client.hpp:34\x1b[m\x1b[K,\n'}
+[2.781524] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.781613] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.781702] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.781795] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.781891] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.781990] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.782091] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.782174] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.782258] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.782341] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.782424] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.782505] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:363:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_time<_CharT>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.782589] (automated_vehicle) StderrLine: {'line': b'  363 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)\n'}
+[2.782671] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.782753] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iomanip:363:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.782836] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.782924] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.783006] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.783089] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.783172] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.783254] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.783339] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.783421] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.783503] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.783586] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.783669] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.783753] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.783836] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char, std::allocator<unsigned char> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Put_time<_CharT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.783925] (automated_vehicle) StderrLine: {'line': b'   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<message.\x1b[01;36m\x1b[Kdata\x1b[m\x1b[K);\n'}
+[2.784007] (automated_vehicle) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.784124] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:19\x1b[m\x1b[K,\n'}
+[2.784208] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/experimental/create_intra_process_buffer.hpp:25\x1b[m\x1b[K,\n'}
+[2.784291] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/experimental/subscription_intra_process.hpp:31\x1b[m\x1b[K,\n'}
+[2.784374] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/experimental/intra_process_manager.hpp:34\x1b[m\x1b[K,\n'}
+[2.784457] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/subscription_base.hpp:30\x1b[m\x1b[K,\n'}
+[2.784540] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:26\x1b[m\x1b[K,\n'}
+[2.784622] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.784714] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.784801] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.784883] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.784964] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.785064] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.785150] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.785229] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.785307] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.785388] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.785468] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cstddef:130:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IntegerType> constexpr std::__byte_op_t<_IntegerType> std::operator<<(std::byte, _IntegerType)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.785548] (automated_vehicle) StderrLine: {'line': b'  130 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(byte __b, _IntegerType __shift) noexcept\n'}
+[2.785626] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.785704] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/cstddef:130:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.785783] (automated_vehicle) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/service.hpp:34\x1b[m\x1b[K,\n'}
+[2.785863] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25\x1b[m\x1b[K,\n'}
+[2.785941] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.786023] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.786102] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.786182] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.786260] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executor.hpp:36\x1b[m\x1b[K,\n'}
+[2.786338] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.786417] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.786496] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156\x1b[m\x1b[K,\n'}
+[2.786575] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/camera.hpp:2\x1b[m\x1b[K,\n'}
+[2.786662] (automated_vehicle) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:1\x1b[m\x1b[K:\n'}
+[2.786742] (automated_vehicle) StderrLine: {'line': b'\x1b[01m\x1b[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/camera.cpp:10:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::operator<< <std::char_traits<char> >(ss.std::__cxx11::basic_stringstream<char>::<anonymous>.std::basic_iostream<char>::<anonymous>, ((const char*)"Published: "))\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::byte\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.786830] (automated_vehicle) StderrLine: {'line': b'   10 |     \x1b[01;36m\x1b[KR\x1b[m\x1b[KCLCPP_INFO_STREAM(this->get_logger(),"Published: "<<message.data);\n'}
+[2.786910] (automated_vehicle) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.814091] (-) TimerEvent: {}
+[2.914530] (-) TimerEvent: {}
+[3.014860] (-) TimerEvent: {}
+[3.115173] (-) TimerEvent: {}
+[3.215516] (-) TimerEvent: {}
+[3.315896] (-) TimerEvent: {}
+[3.416268] (-) TimerEvent: {}
+[3.516616] (-) TimerEvent: {}
+[3.616966] (-) TimerEvent: {}
+[3.717306] (-) TimerEvent: {}
+[3.817666] (-) TimerEvent: {}
+[3.918031] (-) TimerEvent: {}
+[3.951424] (automated_vehicle) StderrLine: {'line': b'make[2]: *** [CMakeFiles/camera_driver.dir/build.make:63: CMakeFiles/camera_driver.dir/src/camera.cpp.o] Error 1\n'}
+[3.951794] (automated_vehicle) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/camera_driver.dir/all] Error 2\n'}
+[3.952066] (automated_vehicle) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.955264] (automated_vehicle) CommandEnded: {'returncode': 2}
+[4.019761] (-) TimerEvent: {}
+[4.122072] (-) TimerEvent: {}
+[4.175556] (automated_vehicle) JobEnded: {'identifier': 'automated_vehicle', 'rc': 2}
+[4.186311] (-) EventReactorShutdown: {}
