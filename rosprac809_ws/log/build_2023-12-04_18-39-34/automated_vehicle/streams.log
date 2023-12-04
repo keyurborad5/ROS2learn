@@ -1,0 +1,29 @@
+[0.841s] Invoking command in '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/automated_vehicle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/automated_vehicle -- -j8 -l8
+[2.944s] [35m[1mScanning dependencies of target camera_driver[0m
+[3.135s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_driver.dir/src/camera.cpp.o[0m
+[11.458s] [100%] [32m[1mLinking CXX executable camera_driver[0m
+[12.279s] [100%] Built target camera_driver
+[12.299s] Invoked command in '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/automated_vehicle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/automated_vehicle -- -j8 -l8
+[12.346s] Invoking command in '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/automated_vehicle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/automated_vehicle
+[12.371s] -- Install configuration: ""
+[12.403s] -- Installing: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/lib/automated_vehicle/camera_driver
+[12.413s] -- Set runtime path of "/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/lib/automated_vehicle/camera_driver" to ""
+[12.413s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/include
+[12.414s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/include/automated_vehicle
+[12.415s] -- Installing: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/include/automated_vehicle/camera.h
+[12.416s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/ament_index/resource_index/package_run_dependencies/automated_vehicle
+[12.417s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/ament_index/resource_index/parent_prefix_path/automated_vehicle
+[12.417s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/environment/ament_prefix_path.sh
+[12.418s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/environment/ament_prefix_path.dsv
+[12.418s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/environment/path.sh
+[12.419s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/environment/path.dsv
+[12.421s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/local_setup.bash
+[12.421s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/local_setup.sh
+[12.422s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/local_setup.zsh
+[12.422s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/local_setup.dsv
+[12.423s] -- Installing: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/package.dsv
+[12.423s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/ament_index/resource_index/packages/automated_vehicle
+[12.424s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/cmake/automated_vehicleConfig.cmake
+[12.425s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/cmake/automated_vehicleConfig-version.cmake
+[12.426s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle/share/automated_vehicle/package.xml
+[12.432s] Invoked command in '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/automated_vehicle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/automated_vehicle

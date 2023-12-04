@@ -11,14 +11,19 @@ void automated_vehicle::Camera::camera_pub_data_cb(){
   rclcpp::Time time_now{this->now()};
   msg.header.stamp.nanosec = static_cast<uint32_t>(time_now.nanoseconds());
   msg.header.stamp.sec = time_now.seconds();
-  msg.header.frame_id = "camera___frame";
+  msg.header.frame_id = name_ + "___frame";
 
   // fill out other entries
-  msg.height = 480;
-  msg.width = 640;
-  msg.encoding = "rgb8";
-  msg.is_bigendian = false;
+  // msg.height = 480;
+  // msg.width = 640;
+  // msg.encoding = "rgb8";
+  // msg.is_bigendian = false;
 
+  // using attrtibutes in the code
+  msg.height = message_height_;
+  msg.width = message_width_;
+  msg.encoding = message_encoding_;
+  msg.is_bigendian = false;
   msg.step = msg.width * 3;
 
   // generate msg.data, fill with random number
