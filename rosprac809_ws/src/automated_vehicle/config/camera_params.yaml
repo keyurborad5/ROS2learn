@@ -4,3 +4,21 @@ camera: #name of a node
     message_width: 885889
     message_encoding: 'ssd'
     name: ' fcr_camera'
+left_camera: #name of a node
+  ros__parameters:
+    message_height: 100
+    message_width: 1000
+    message_encoding: 'lft'
+    name: ' left_camera'
+center_camera: #name of a node
+  ros__parameters:
+    message_height: 200
+    message_width: 2000
+    message_encoding: 'cen'
+    name: ' center_camera'
+right_camera: #name of a node
+  ros__parameters:
+    message_height: 300
+    message_width: 3000
+    message_encoding: 'rgt'
+    name: ' right_camera'

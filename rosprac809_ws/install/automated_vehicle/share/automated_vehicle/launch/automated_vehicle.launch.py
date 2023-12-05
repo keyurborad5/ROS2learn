@@ -17,56 +17,56 @@ def generate_launch_description():
         'config',
         'camera_params.yaml'
     )
-    camera = Node(
-        package="automated_vehicle",
-        executable="camera_driver",
-         parameters=[parameter_file]
+    # camera = Node(
+    #     package="automated_vehicle",
+    #     executable="camera_driver",
+    #      parameters=[parameter_file]
         #     {'message_height': 480},
         #     {'message_width': 640},
         #     {'message_encoding': 'grayscale'},
         #     {'name': 'center_front_cam'}
         # ]
-    )
+    #)
     # center_camera = Node(
     #     package="automated_vehicle",
     #     executable="camera",
     #     parameters=[parameter_file]
     # )
 
-    # left_camera = Node(
-    #     package="automated_vehicle",
-    #     executable="camera",
-    #     parameters=[parameter_file],    # parameter file
-    #     name='left_camera',                # node remapping
-    #     remappings=[                    # topic remapping
-    #         ('/image', '/left_image')
-    #     ]
-    # )
+    left_camera = Node(
+        package="automated_vehicle",
+        executable="camera_driver",
+        parameters=[parameter_file],    # parameter file
+        name='left_camera',                # node remapping
+        remappings=[                    # topic remapping
+            ('/image', '/left_image')
+        ]
+    )
 
-    # center_camera = Node(
-    #     package="automated_vehicle",
-    #     executable="camera",
-    #     parameters=[parameter_file],    # parameter file
-    #     name='center_camera',                # node remapping
-    #     remappings=[                    # topic remapping
-    #         ('/image', '/center_image')
-    #     ]
-    # )
+    center_camera = Node(
+        package="automated_vehicle",
+        executable="camera_driver",
+        parameters=[parameter_file],    # parameter file
+        name='center_camera',                # node remapping
+        remappings=[                    # topic remapping
+            ('/image', '/center_image')
+        ]
+    )
 
-    # right_camera = Node(
-    #     package="automated_vehicle",
-    #     executable="camera",
-    #     parameters=[parameter_file],    # parameter file
-    #     name='right_camera',                # node remapping
-    #     remappings=[                    # topic remapping
-    #         ('/image', '/right_image')
-    #     ]
-    # )
+    right_camera = Node(
+        package="automated_vehicle",
+        executable="camera_driver",
+        parameters=[parameter_file],    # parameter file
+        name='right_camera',                # node remapping
+        remappings=[                    # topic remapping
+            ('/image', '/right_image')
+        ]
+    )
 
     ld = LaunchDescription()
-    ld.add_action(camera)
+    # ld.add_action(camera)
 
-    # ld.add_action(left_camera)
-    # ld.add_action(center_camera)
-    # ld.add_action(right_camera)
+    ld.add_action(left_camera)
+    ld.add_action(center_camera)
+    ld.add_action(right_camera)
     return ld
