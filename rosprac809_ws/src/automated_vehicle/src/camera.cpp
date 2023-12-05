@@ -38,6 +38,13 @@ void automated_vehicle::Camera::camera_pub_data_cb(){
   // publish
   camera_publisher_->publish(msg);
 }
+
+void automated_vehicle::Camera::restart_timer(){
+  timer_.reset();
+  timer_ = this->create_wall_timer(std::chrono::milliseconds(interval_), std::bind(&automated_vehicle::Camera::camera_pub_data_cb, this));
+}
+
+
 rcl_interfaces::msg::SetParametersResult automated_vehicle::Camera::parameters_cb(const std::vector<rclcpp::Parameter> &parameters){
 
   RCLCPP_INFO_STREAM(this->get_logger(), "----------------SET----------------- ");
@@ -48,11 +55,14 @@ rcl_interfaces::msg::SetParametersResult automated_vehicle::Camera::parameters_c
     if (param.get_name() == "name")
       name_ = param.as_string(); // modify the attribute
     else if (param.get_name() == "message_width")
-      name_ = param.as_int(); 
+      message_width_ = param.as_int(); 
     else if (param.get_name() == "message_height")
-      name_ = param.as_int();
+      message_height_ = param.as_int();
     else if (param.get_name() == "messsage_encoding")
-      name_ = param.as_string();  
+      message_encoding_ = param.as_string();  
+    else if (param.get_name() == "interval"){
+      interval_ = param.as_int();
+      restart_timer();  }
     else{
       result.successful = false;
       result.reason = "parameter name not found";

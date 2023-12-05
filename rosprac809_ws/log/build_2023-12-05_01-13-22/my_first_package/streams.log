@@ -1,0 +1,35 @@
+[0.428s] Invoking command in '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package -- -j8 -l8
+[0.691s] [ 33%] Built target light_switcher_sub
+[0.723s] [ 66%] Built target light_switcher_pub
+[1.157s] [100%] Built target hello
+[1.178s] Invoked command in '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package -- -j8 -l8
+[1.256s] Invoking command in '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package
+[1.288s] -- Install configuration: ""
+[1.289s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/lib/my_first_package/hello
+[1.290s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/lib/my_first_package/light_switcher_pub
+[1.292s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/lib/my_first_package/light_switcher_sub
+[1.292s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/include
+[1.293s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/include/my_first_package
+[1.293s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/include/my_first_package/my_first_package.h
+[1.293s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/include/my_first_package/light_switcher_sub.h
+[1.294s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/include/my_first_package/light_switcher_pub.h
+[1.295s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/launch
+[1.295s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/launch/my_first_package.launch.py
+[1.295s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/launch/publisher.launch.py
+[1.296s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/launch/subscriber.launch.py
+[1.296s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/ament_index/resource_index/package_run_dependencies/my_first_package
+[1.296s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/ament_index/resource_index/parent_prefix_path/my_first_package
+[1.296s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/environment/ament_prefix_path.sh
+[1.296s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/environment/ament_prefix_path.dsv
+[1.297s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/environment/path.sh
+[1.297s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/environment/path.dsv
+[1.297s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/local_setup.bash
+[1.297s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/local_setup.sh
+[1.297s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/local_setup.zsh
+[1.298s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/local_setup.dsv
+[1.298s] -- Installing: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/package.dsv
+[1.298s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/ament_index/resource_index/packages/my_first_package
+[1.299s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/cmake/my_first_packageConfig.cmake
+[1.299s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/cmake/my_first_packageConfig-version.cmake
+[1.300s] -- Up-to-date: /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package/share/my_first_package/package.xml
+[1.301s] Invoked command in '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/my_first_package

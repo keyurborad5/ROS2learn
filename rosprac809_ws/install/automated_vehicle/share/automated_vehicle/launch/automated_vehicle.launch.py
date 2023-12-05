@@ -43,30 +43,30 @@ def generate_launch_description():
         ]
     )
 
-    center_camera = Node(
-        package="automated_vehicle",
-        executable="camera_driver",
-        parameters=[parameter_file],    # parameter file
-        name='center_camera',                # node remapping
-        remappings=[                    # topic remapping
-            ('/image', '/center_image')
-        ]
-    )
+    # center_camera = Node(
+    #     package="automated_vehicle",
+    #     executable="camera_driver",
+    #     parameters=[parameter_file],    # parameter file
+    #     name='center_camera',                # node remapping
+    #     remappings=[                    # topic remapping
+    #         ('/image', '/center_image')
+    #     ]
+    # )
 
-    right_camera = Node(
-        package="automated_vehicle",
-        executable="camera_driver",
-        parameters=[parameter_file],    # parameter file
-        name='right_camera',                # node remapping
-        remappings=[                    # topic remapping
-            ('/image', '/right_image')
-        ]
-    )
+    # right_camera = Node(
+    #     package="automated_vehicle",
+    #     executable="camera_driver",
+    #     parameters=[parameter_file],    # parameter file
+    #     name='right_camera',                # node remapping
+    #     remappings=[                    # topic remapping
+    #         ('/image', '/right_image')
+    #     ]
+    # )
 
     ld = LaunchDescription()
     # ld.add_action(camera)
 
     ld.add_action(left_camera)
-    ld.add_action(center_camera)
-    ld.add_action(right_camera)
+    # ld.add_action(center_camera)
+    # ld.add_action(right_camera)
     return ld
