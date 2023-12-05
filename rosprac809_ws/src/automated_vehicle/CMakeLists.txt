@@ -26,6 +26,6 @@ add_executable(camera_driver src/camera.cpp)
 ament_target_dependencies(camera_driver rclcpp sensor_msgs)
 install(TARGETS camera_driver DESTINATION lib/${PROJECT_NAME})
 
-install(DIRECTORY include launch DESTINATION share/${PROJECT_NAME})
+install(DIRECTORY include launch config DESTINATION share/${PROJECT_NAME})
 
 ament_package()

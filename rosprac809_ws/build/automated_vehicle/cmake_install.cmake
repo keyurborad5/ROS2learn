@@ -61,6 +61,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/automated_vehicle" TYPE DIRECTORY FILES
     "/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include"
     "/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/launch"
+    "/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/config"
     )
 endif()
 

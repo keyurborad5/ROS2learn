@@ -20,12 +20,12 @@ def generate_launch_description():
     camera = Node(
         package="automated_vehicle",
         executable="camera_driver",
-        parameters=[
-            {'message_height': 480},
-            {'message_width': 640},
-            {'message_encoding': 'grayscale'},
-            {'name': 'center_front_cam'}
-        ]
+        # parameters=[
+        #     {'message_height': 480},
+        #     {'message_width': 640},
+        #     {'message_encoding': 'grayscale'},
+        #     {'name': 'center_front_cam'}
+        # ]
     )
     # center_camera = Node(
     #     package="automated_vehicle",

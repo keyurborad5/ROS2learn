@@ -1,0 +1,6 @@
+camera: #name of a node
+  ros__parameters:
+    message_height: 180
+    message_width: 885
+    message_encoding: 'ssd'
+    name: ' frornt_camera'
