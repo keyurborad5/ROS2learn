@@ -1,0 +1,28 @@
+[0.304s] Invoking command in '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/automated_vehicle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/automated_vehicle -- -j8 -l8
+[0.367s] [35m[1mScanning dependencies of target vehicle_driver[0m
+[0.391s] [ 50%] Built target camera_driver
+[0.441s] [ 75%] [32mBuilding CXX object CMakeFiles/vehicle_driver.dir/src/vehicle.cpp.o[0m
+[0.676s] [01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/vehicle.cpp:10:107:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+[0.676s]    10 | >get_logger(),"printing"<<message.driving_type<<'  '<<message.current_action<<[01;35m[K)[m[K;
+[0.676s]       |                                                                               [01;35m[K^[m[K
+[0.676s] 
+[3.329s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/service.hpp:34[m[K,
+[3.329s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25[m[K,
+[3.329s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[3.329s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[3.330s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[3.330s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[3.330s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[3.330s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[3.330s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[3.330s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[3.330s]                  from [01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/vehicle.h:3[m[K,
+[3.330s]                  from [01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/vehicle.cpp:1[m[K:
+[3.330s] [01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/vehicle.cpp:[m[K In member function ‘[01m[Kvoid automated_vehicle::Vehicle::vehicle_pub_data_cb()[m[K’:
+[3.331s] [01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/vehicle.cpp:10:5:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K;[m[K’ token
+[3.331s]    10 |     [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(),"printing"<<message.driving_type<<'  '<<message.current_action<<);
+[3.331s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.689s] make[2]: *** [CMakeFiles/vehicle_driver.dir/build.make:63: CMakeFiles/vehicle_driver.dir/src/vehicle.cpp.o] Error 1
+[4.689s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/vehicle_driver.dir/all] Error 2
+[4.689s] make: *** [Makefile:141: all] Error 2
+[4.692s] Invoked command in '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/automated_vehicle' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/automated_vehicle -- -j8 -l8

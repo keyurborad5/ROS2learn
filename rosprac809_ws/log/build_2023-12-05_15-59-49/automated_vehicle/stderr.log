@@ -1,0 +1,4 @@
+[01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/vehicle.cpp:10:111:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+   10 | _logger(),"printing"<<message.driving_type<<'  '<<message.current_action<<'\n'[01;35m[K)[m[K;
+      |                                                                               [01;35m[K^[m[K
+

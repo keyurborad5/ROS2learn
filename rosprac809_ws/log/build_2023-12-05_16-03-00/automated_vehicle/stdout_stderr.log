@@ -1,0 +1,28 @@
+[35m[1mScanning dependencies of target vehicle_driver[0m
+[ 50%] Built target camera_driver
+[ 75%] [32mBuilding CXX object CMakeFiles/vehicle_driver.dir/src/vehicle.cpp.o[0m
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/vehicle.h:3[m[K,
+                 from [01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/vehicle.cpp:1[m[K:
+[01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/vehicle.cpp:[m[K In member function ‘[01m[Kvoid automated_vehicle::Vehicle::vehicle_pub_data_cb()[m[K’:
+[01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/vehicle.cpp:10:53:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kav_msgs::msg::VehicleStatus_<ContainerAllocator>::Type& av_msgs::msg::VehicleStatus_<ContainerAllocator>::set__current_speed(const double&) [with ContainerAllocator = std::allocator<void>; av_msgs::msg::VehicleStatus_<ContainerAllocator>::Type = av_msgs::msg::VehicleStatus_<std::allocator<void> >][m[K’
+   10 |     RCLCPP_INFO_STREAM(this->get_logger(),"printing"[01;31m[K<[m[K<message.set__current_speed);
+      |                                                     [01;31m[K^[m[K
+In file included from [01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/av_msgs/include/av_msgs/msg/vehicle_status.hpp:7[m[K,
+                 from [01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/include/automated_vehicle/vehicle.h:2[m[K,
+                 from [01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle/src/vehicle.cpp:1[m[K:
+[01m[K/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/av_msgs/include/av_msgs/msg/detail/vehicle_status__struct.hpp:82:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   82 |   Type & [01;36m[Kset__current_speed[m[K(
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/vehicle_driver.dir/build.make:63: CMakeFiles/vehicle_driver.dir/src/vehicle.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/vehicle_driver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
