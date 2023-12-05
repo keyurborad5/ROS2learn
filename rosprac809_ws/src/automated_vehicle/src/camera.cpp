@@ -14,16 +14,16 @@ void automated_vehicle::Camera::camera_pub_data_cb(){
   msg.header.frame_id = name_ + "___frame";
 
   // fill out other entries
-  // msg.height = 480;
-  // msg.width = 640;
-  // msg.encoding = "rgb8";
-  // msg.is_bigendian = false;
+  msg.height = 480;
+  msg.width = 640;
+  msg.encoding = "rgb8";
+  msg.is_bigendian = false;
 
   // using attrtibutes in the code
-  msg.height = message_height_;
-  msg.width = message_width_;
-  msg.encoding = message_encoding_;
-  msg.is_bigendian = false;
+    // msg.height = message_height_;
+    // msg.width = message_width_;
+    // msg.encoding = message_encoding_;
+    // msg.is_bigendian = false;
   msg.step = msg.width * 3;
 
   // generate msg.data, fill with random number
@@ -37,6 +37,28 @@ void automated_vehicle::Camera::camera_pub_data_cb(){
   RCLCPP_INFO_STREAM(this->get_logger(), "frame: " << msg.header.frame_id);
   // publish
   camera_publisher_->publish(msg);
+}
+rcl_interfaces::msg::SetParametersResult automated_vehicle::Camera::parameters_cb(const std::vector<rclcpp::Parameter> &parameters){
+
+  RCLCPP_INFO_STREAM(this->get_logger(), "----------------SET----------------- ");
+  rcl_interfaces::msg::SetParametersResult result;
+  result.successful = true;
+  result.reason = "success";
+  for (const auto &param : parameters){
+    if (param.get_name() == "name")
+      name_ = param.as_string(); // modify the attribute
+    else if (param.get_name() == "message_width")
+      name_ = param.as_int(); 
+    else if (param.get_name() == "message_height")
+      name_ = param.as_int();
+    else if (param.get_name() == "messsage_encoding")
+      name_ = param.as_string();  
+    else{
+      result.successful = false;
+      result.reason = "parameter name not found";
+    }
+  }
+  return result;
 }
 
 int main( int argc , char** argv){

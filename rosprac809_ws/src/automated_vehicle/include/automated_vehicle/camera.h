@@ -19,19 +19,21 @@ namespace automated_vehicle{
             this->declare_parameter("interval", 1000);
 
             //Retriving node parameter by making them as attribute
-            // message_height_=this->get_parameter("message_height").as_int();
-            // message_width_=this->get_parameter("message_width").as_int();
-            // message_encoding_=this->get_parameter("message_encoding").as_string();
-            // name_=this->get_parameter("name").as_string();
-            // interval_=this->get_parameter("interval").as_int();
+            message_height_=this->get_parameter("message_height").as_int();
+            message_width_=this->get_parameter("message_width").as_int();
+            message_encoding_=this->get_parameter("message_encoding").as_string();
+            name_=this->get_parameter("name").as_string();
+            interval_=this->get_parameter("interval").as_int();
 
             camera_publisher_ = this->create_publisher<sensor_msgs::msg::Image>("image",10);
             timer_ = this->create_wall_timer(std::chrono::seconds(1), std::bind(&automated_vehicle::Camera::camera_pub_data_cb, this));
+            parameter_cb_ = this->add_on_set_parameters_callback(std::bind(&automated_vehicle::Camera::parameters_cb,this,std::placeholders::_1));
 
         }
         private:
         rclcpp::Publisher<sensor_msgs::msg::Image>::SharedPtr camera_publisher_;
         rclcpp::TimerBase::SharedPtr timer_;
+        OnSetParametersCallbackHandle::SharedPtr parameter_cb_;
         //aatributes of parameters
         unsigned message_height_;
         unsigned message_width_;
@@ -40,6 +42,7 @@ namespace automated_vehicle{
         unsigned interval_;
 
         void camera_pub_data_cb();
+        rcl_interfaces::msg::SetParametersResult parameters_cb(const std::vector<rclcpp::Parameter> &parameters);
 
     };//class camera
 }// namespace automated_vehicle
