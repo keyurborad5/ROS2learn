@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named vehicle_driver
+
+# Build rule for target.
+vehicle_driver: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 vehicle_driver
+.PHONY : vehicle_driver
+
+# fast build rule for target.
+vehicle_driver/fast:
+	$(MAKE) -f CMakeFiles/vehicle_driver.dir/build.make CMakeFiles/vehicle_driver.dir/build
+.PHONY : vehicle_driver/fast
+
+#=============================================================================
 # Target rules for targets named camera_driver
 
 # Build rule for target.
@@ -233,6 +246,33 @@ src/camera.cpp.s:
 	$(MAKE) -f CMakeFiles/camera_driver.dir/build.make CMakeFiles/camera_driver.dir/src/camera.cpp.s
 .PHONY : src/camera.cpp.s
 
+src/vehicle.o: src/vehicle.cpp.o
+
+.PHONY : src/vehicle.o
+
+# target to build an object file
+src/vehicle.cpp.o:
+	$(MAKE) -f CMakeFiles/vehicle_driver.dir/build.make CMakeFiles/vehicle_driver.dir/src/vehicle.cpp.o
+.PHONY : src/vehicle.cpp.o
+
+src/vehicle.i: src/vehicle.cpp.i
+
+.PHONY : src/vehicle.i
+
+# target to preprocess a source file
+src/vehicle.cpp.i:
+	$(MAKE) -f CMakeFiles/vehicle_driver.dir/build.make CMakeFiles/vehicle_driver.dir/src/vehicle.cpp.i
+.PHONY : src/vehicle.cpp.i
+
+src/vehicle.s: src/vehicle.cpp.s
+
+.PHONY : src/vehicle.s
+
+# target to generate assembly for a file
+src/vehicle.cpp.s:
+	$(MAKE) -f CMakeFiles/vehicle_driver.dir/build.make CMakeFiles/vehicle_driver.dir/src/vehicle.cpp.s
+.PHONY : src/vehicle.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -243,6 +283,7 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... vehicle_driver"
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... camera_driver"
@@ -252,6 +293,9 @@ help:
 	@echo "... src/camera.o"
 	@echo "... src/camera.i"
 	@echo "... src/camera.s"
+	@echo "... src/vehicle.o"
+	@echo "... src/vehicle.i"
+	@echo "... src/vehicle.s"
 .PHONY : help
 
 

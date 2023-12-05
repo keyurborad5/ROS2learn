@@ -1,0 +1,6 @@
+{
+  "package_name": "av_msgs",
+  "non_idl_tuples": [
+    "/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/av_msgs:msg/VehicleStatus.msg"
+  ]
+}

@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from av_msgs/msg/VehicleStatus.msg
+// generated code does not contain a copyright notice
+
+
+module av_msgs {
+  module msg {
+    module VehicleStatus_Constants {
+      const uint8 AUTONOMOUS = 0;
+      const uint8 MANUAL = 1;
+      const uint8 MOVING = 0;
+      const uint8 STOPPED = 1;
+    };
+    @verbatim (language="comment", text=
+      " driving_type")
+    struct VehicleStatus {
+      uint8 driving_type;
+
+      uint8 current_action;
+
+      double current_speed;
+    };
+  };
+};

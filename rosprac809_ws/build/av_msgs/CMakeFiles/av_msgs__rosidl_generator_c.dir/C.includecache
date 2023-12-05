@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/av_msgs/rosidl_generator_c/av_msgs/msg/detail/vehicle_status__functions.c
+av_msgs/msg/detail/vehicle_status__functions.h
+/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/av_msgs/rosidl_generator_c/av_msgs/msg/detail/av_msgs/msg/detail/vehicle_status__functions.h
+assert.h
+-
+stdbool.h
+-
+stdlib.h
+-
+string.h
+-
+
+/opt/ros/galactic/include/rosidl_runtime_c/visibility_control.h
+
+rosidl_generator_c/av_msgs/msg/detail/vehicle_status__functions.h
+stdbool.h
+-
+stdlib.h
+-
+rosidl_runtime_c/visibility_control.h
+rosidl_generator_c/av_msgs/msg/detail/rosidl_runtime_c/visibility_control.h
+av_msgs/msg/rosidl_generator_c__visibility_control.h
+rosidl_generator_c/av_msgs/msg/detail/av_msgs/msg/rosidl_generator_c__visibility_control.h
+av_msgs/msg/detail/vehicle_status__struct.h
+rosidl_generator_c/av_msgs/msg/detail/av_msgs/msg/detail/vehicle_status__struct.h
+
+rosidl_generator_c/av_msgs/msg/detail/vehicle_status__struct.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
+rosidl_generator_c/av_msgs/msg/rosidl_generator_c__visibility_control.h
+

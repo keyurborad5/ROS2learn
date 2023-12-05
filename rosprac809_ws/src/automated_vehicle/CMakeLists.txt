@@ -9,6 +9,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(av_msgs REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -25,6 +26,11 @@ include_directories(include/automated_vehicle)
 add_executable(camera_driver src/camera.cpp)
 ament_target_dependencies(camera_driver rclcpp sensor_msgs)
 install(TARGETS camera_driver DESTINATION lib/${PROJECT_NAME})
+
+include_directories(include/automated_vehicle)
+add_executable(vehicle_driver src/vehicle.cpp)
+ament_target_dependencies(vehicle_driver rclcpp av_msgs)
+install(TARGETS vehicle_driver DESTINATION lib/${PROJECT_NAME})
 
 install(DIRECTORY include launch config DESTINATION share/${PROJECT_NAME})
 

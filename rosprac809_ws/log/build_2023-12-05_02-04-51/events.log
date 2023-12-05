@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000133] (-) JobUnselected: {'identifier': 'automated_vehicle'}
+[0.000166] (-) JobUnselected: {'identifier': 'my_first_package'}
+[0.000191] (av_msgs) JobQueued: {'identifier': 'av_msgs', 'dependencies': OrderedDict()}
+[0.000215] (av_msgs) JobStarted: {'identifier': 'av_msgs'}
+[0.100171] (-) TimerEvent: {}
+[0.201210] (-) TimerEvent: {}
+[0.274058] (av_msgs) JobProgress: {'identifier': 'av_msgs', 'progress': 'cmake'}
+[0.274859] (av_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/av_msgs', '-DCMAKE_INSTALL_PREFIX=/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/av_msgs'], 'cwd': '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/av_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'keyur'), ('SSH_AGENT_PID', '1478'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/keyur'), ('OLDPWD', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1120'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4400'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install:/home/keyur/ros809_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'keyur'), ('JOURNAL_STREAM', '8:39406'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'keyur'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/keyur:@/tmp/.ICE-unix/1516,unix/keyur:/tmp/.ICE-unix/1516'), ('INVOCATION_ID', '33bfbdae96be4c0095f2db7b1931febc'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package:/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle:/home/keyur/ros809_ws/install/first_package:/home/keyur/ros809_ws/install/automated_vehicle:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:2cd7cd1c-1b5b-48e7-83ab-28a6a3467e69'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/av_msgs'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/my_first_package:/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/automated_vehicle:/home/keyur/ros809_ws/install/first_package:/home/keyur/ros809_ws/install/automated_vehicle')]), 'shell': False}
+[0.301450] (-) TimerEvent: {}
+[0.402143] (-) TimerEvent: {}
+[0.502840] (-) TimerEvent: {}
+[0.603517] (-) TimerEvent: {}
+[0.704249] (-) TimerEvent: {}
+[0.804655] (-) TimerEvent: {}
+[0.905320] (-) TimerEvent: {}
+[1.005835] (-) TimerEvent: {}
+[1.106790] (-) TimerEvent: {}
+[1.207522] (-) TimerEvent: {}
+[1.308026] (-) TimerEvent: {}
+[1.408903] (-) TimerEvent: {}
+[1.509773] (-) TimerEvent: {}
+[1.610680] (-) TimerEvent: {}
+[1.711543] (-) TimerEvent: {}
+[1.812386] (-) TimerEvent: {}
+[1.913187] (-) TimerEvent: {}
+[2.014137] (-) TimerEvent: {}
+[2.115106] (-) TimerEvent: {}
+[2.216017] (-) TimerEvent: {}
+[2.316958] (-) TimerEvent: {}
+[2.417766] (-) TimerEvent: {}
+[2.518743] (-) TimerEvent: {}
+[2.619724] (-) TimerEvent: {}
+[2.720598] (-) TimerEvent: {}
+[2.821896] (-) TimerEvent: {}
+[2.922775] (-) TimerEvent: {}
+[3.023574] (-) TimerEvent: {}
+[3.089337] (av_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[3.123805] (-) TimerEvent: {}
+[3.224468] (-) TimerEvent: {}
+[3.258923] (av_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.324690] (-) TimerEvent: {}
+[3.342587] (av_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.424859] (-) TimerEvent: {}
+[3.525364] (-) TimerEvent: {}
+[3.529512] (av_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.558907] (av_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.625481] (-) TimerEvent: {}
+[3.681929] (av_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.704823] (av_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.721454] (av_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.725596] (-) TimerEvent: {}
+[3.727402] (av_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.825727] (-) TimerEvent: {}
+[3.853272] (av_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.855063] (av_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.925841] (-) TimerEvent: {}
+[3.976936] (av_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.992524] (av_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.993232] (av_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.025967] (-) TimerEvent: {}
+[4.061829] (av_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[4.126179] (-) TimerEvent: {}
+[4.188122] (av_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[4.188609] (av_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.226273] (-) TimerEvent: {}
+[4.326633] (-) TimerEvent: {}
+[4.427085] (-) TimerEvent: {}
+[4.527721] (-) TimerEvent: {}
+[4.628108] (-) TimerEvent: {}
+[4.721839] (av_msgs) StdoutLine: {'line': b'-- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)\n'}
+[4.728350] (-) TimerEvent: {}
+[4.828926] (-) TimerEvent: {}
+[4.929307] (-) TimerEvent: {}
+[5.029772] (-) TimerEvent: {}
+[5.086722] (av_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.130089] (-) TimerEvent: {}
+[5.188564] (av_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[5.230216] (-) TimerEvent: {}
+[5.330570] (-) TimerEvent: {}
+[5.430939] (-) TimerEvent: {}
+[5.531559] (-) TimerEvent: {}
+[5.632602] (-) TimerEvent: {}
+[5.733349] (-) TimerEvent: {}
+[5.834139] (-) TimerEvent: {}
+[5.864442] (av_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[5.934365] (-) TimerEvent: {}
+[6.005239] (av_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[6.034615] (-) TimerEvent: {}
+[6.136122] (-) TimerEvent: {}
+[6.236902] (-) TimerEvent: {}
+[6.337354] (-) TimerEvent: {}
+[6.418161] (av_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.437510] (-) TimerEvent: {}
+[6.538021] (-) TimerEvent: {}
+[6.552539] (av_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[6.638162] (-) TimerEvent: {}
+[6.666395] (av_msgs) StderrLine: {'line': b"Error parsing '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/av_msgs/package.xml':\n"}
+[6.738272] (-) TimerEvent: {}
+[6.838608] (-) TimerEvent: {}
+[6.872988] (av_msgs) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[6.873608] (av_msgs) StderrLine: {'line': b'  File "/opt/ros/galactic/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 151, in <module>\n'}
+[6.873965] (av_msgs) StderrLine: {'line': b'    main()\n'}
+[6.874282] (av_msgs) StderrLine: {'line': b'  File "/opt/ros/galactic/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 54, in main\n'}
+[6.874591] (av_msgs) StderrLine: {'line': b'    raise e\n'}
+[6.874889] (av_msgs) StderrLine: {'line': b'  File "/opt/ros/galactic/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 50, in main\n'}
+[6.875298] (av_msgs) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[6.875610] (av_msgs) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string\n'}
+[6.875916] (av_msgs) StderrLine: {'line': b"    raise InvalidPackage('Error(s):%s' % (''.join(['\\n- %s' % e for e in errors])), filename)\n"}
+[6.876227] (av_msgs) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/av_msgs/package.xml':\n"}
+[6.876530] (av_msgs) StderrLine: {'line': b'Error(s):\n'}
+[6.876829] (av_msgs) StderrLine: {'line': b"- The generic dependency on 'std_msgs' is redundant with: build_depend, build_export_depend, exec_depend\n"}
+[6.916699] (av_msgs) StderrLine: {'line': b'CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[6.917011] (av_msgs) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[6.917150] (av_msgs) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[6.917266] (av_msgs) StderrLine: {'line': b'  /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/av_msgs/package.xml\n'}
+[6.917368] (av_msgs) StderrLine: {'line': b'  /home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/av_msgs/ament_cmake_core/package.cmake)\n'}
+[6.917465] (av_msgs) StderrLine: {'line': b'  returned error code 1\n'}
+[6.917583] (av_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.917700] (av_msgs) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[6.917896] (av_msgs) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[6.918030] (av_msgs) StderrLine: {'line': b'  CMakeLists.txt:20 (ament_lint_auto_find_test_dependencies)\n'}
+[6.918185] (av_msgs) StderrLine: {'line': b'\n'}
+[6.918360] (av_msgs) StderrLine: {'line': b'\n'}
+[6.919523] (av_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.919750] (av_msgs) StdoutLine: {'line': b'See also "/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/build/av_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[6.929784] (av_msgs) CommandEnded: {'returncode': 1}
+[6.931035] (av_msgs) JobEnded: {'identifier': 'av_msgs', 'rc': 1}
+[6.938765] (-) TimerEvent: {}
+[6.941669] (-) EventReactorShutdown: {}

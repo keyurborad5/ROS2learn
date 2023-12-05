@@ -11,7 +11,9 @@
                 "/opt/ros/galactic/include/**",
                 "/usr/include/**",
                 "/opt/ros/galactic/include/rclcpp",
-                "/opt/ros/galactic/include"
+                "/opt/ros/galactic/include",
+                "${workspaceFolder}/install/av_msgs/include",
+                "${workspaceFolder}/src/automated_vehicle/include/automated_vehicle"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",

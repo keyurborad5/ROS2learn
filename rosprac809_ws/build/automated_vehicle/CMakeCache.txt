@@ -272,7 +272,7 @@ SITE:STRING=keyur
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/galactic/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/av_msgs/lib/libav_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/galactic/share/ament_cmake/cmake
@@ -381,6 +381,9 @@ automated_vehicle_BINARY_DIR:STATIC=/home/keyur/empm809y_cpp/Cpp_projects/ROS2le
 
 //Value Computed by CMake
 automated_vehicle_SOURCE_DIR:STATIC=/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/src/automated_vehicle
+
+//The directory containing a CMake configuration file for av_msgs.
+av_msgs_DIR:PATH=/home/keyur/empm809y_cpp/Cpp_projects/ROS2learn/rosprac809_ws/install/av_msgs/share/av_msgs/cmake
 
 //The directory containing a CMake configuration file for builtin_interfaces.
 builtin_interfaces_DIR:PATH=/opt/ros/galactic/share/builtin_interfaces/cmake
