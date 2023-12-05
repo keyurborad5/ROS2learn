@@ -12,15 +12,15 @@ def generate_launch_description():
     Main function for the launch file
     """
     # find the parameter file
-    # parameter_file = os.path.join(
-    #     get_package_share_directory('automated_vehicle'),
-    #     'config',
-    #     'av_params.yaml'
-    # )
+    parameter_file = os.path.join(
+        get_package_share_directory('automated_vehicle'),
+        'config',
+        'camera_params.yaml'
+    )
     camera = Node(
         package="automated_vehicle",
         executable="camera_driver",
-        # parameters=[
+         parameters=[parameter_file]
         #     {'message_height': 480},
         #     {'message_width': 640},
         #     {'message_encoding': 'grayscale'},
